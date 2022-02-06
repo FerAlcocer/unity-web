@@ -2,7 +2,7 @@ import React from 'react';
 
 export const ScheduleScreen = () => {
   return (
-    <div className="container" style={{marginTop:"20px"}}>
+    <div className="container animate__animated animate__fadeIn" style={{marginTop:"20px"}}>
 <div className="timetable-img text-center">
   <img src={ `./assets/heroes/dc-batman.jpg` } alt=""></img>
 </div>

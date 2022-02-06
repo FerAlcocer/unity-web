@@ -3,7 +3,7 @@ import { Carousel } from 'react-bootstrap';
 
 export const CarrouselComponent = () => {
   return (
-    <Carousel fade>
+    <Carousel fade className="card-columns animate__animated animate__fadeIn">
       <Carousel.Item>
         <img
           className="d-block w-100"

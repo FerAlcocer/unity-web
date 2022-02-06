@@ -39,7 +39,7 @@ export const NavbarComponent = () => {
   return (
     <Navbar bg="dark" variant="dark" expand="lg">
           <Navbar.Brand as={Link} to="/home">
-           <img src={ `./assets/logo-unity.png`} alt="Unity" style={{width:"80px"}}></img>
+           <img src={ `../assets/logo-unity.png`} alt="Unity" style={{width:"120px"}}></img>
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
@@ -91,7 +91,7 @@ export const NavbarComponent = () => {
               )}    
 
             {currentUser ? (
-              <Nav className="justify-content-end">
+              <Nav className="justify-content-end" style={{paddingRight:"50px"}}>
               <Nav.Link as={Link} to="/profile" className="nav-link">
                 {currentUser.username}
                </Nav.Link>
@@ -100,12 +100,12 @@ export const NavbarComponent = () => {
                   </Nav.Link>
               </Nav>
             ) : (
-              <Nav className="justify-content-end">
+              <Nav className="justify-content-end" style={{paddingRight:"50px"}}>
                 <Nav.Link as={Link} to="/login" className="nav-link">
                   Login
                 </Nav.Link>
 
-                <Nav.Link as={Link} to="/register" className="nav-link">
+                <Nav.Link  as={Link} to="/register" className="nav-link">
                   Sign Up
                 </Nav.Link>
                 </Nav>

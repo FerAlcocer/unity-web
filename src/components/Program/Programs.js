@@ -5,22 +5,11 @@ import React from "react";
 import { programs } from '../../data/programs';
 
 const Programs = () => {
-  
-  
-  /*const history = useHistory();
-
-  const getClass = ( id ) => {
-    history.push({
-      pathname: "/Class/",
-      state: { id },
-    });
-  };*/
-
   return (
     <Container>
       <Row>
       { programs.map(program => (
-       <Col sm key={program.id}>  
+       <Col sm key={program.id} className="card-columns animate__animated animate__fadeIn">  
         <Card   style={{ width: '18rem' }}>
         <Card.Img variant="top" src="holder.js/100px180" />
         <Card.Body>

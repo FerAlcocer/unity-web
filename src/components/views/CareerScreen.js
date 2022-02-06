@@ -1,14 +1,19 @@
 import React from 'react';
 import {Accordion} from 'react-bootstrap';
+import "../../styles/Video.css";
+import "../../styles/Black.css";
+import YoutubeEmbed  from "../shared/Video";
 
 export const CareerScreen = () => {
   return (
-  <div className='container mt-5'>
-  <Accordion>
+  <div className='container mt-5 '>
+  <Accordion className="card-columns animate__animated animate__fadeIn">
     <Accordion.Item eventKey="0">
       <Accordion.Header>#1 - Basic Solo drills</Accordion.Header>
       
-      <Accordion.Body>Technical stand up</Accordion.Body>
+      <Accordion.Body>Technical stand up
+        <YoutubeEmbed embedId="WVmPijtk9sw" />
+      </Accordion.Body>
       <Accordion.Body>Kipping shrimp</Accordion.Body>
       <Accordion.Body>Upa / Bridging</Accordion.Body>
         <Accordion.Body>Rolling</Accordion.Body>
@@ -18,7 +23,9 @@ export const CareerScreen = () => {
     <Accordion.Item eventKey="1">
       <Accordion.Header>#2 - Introduction BJJ techniques</Accordion.Header>
         <Accordion.Body>Takedown</Accordion.Body>
-        <Accordion.Body>Pass guard</Accordion.Body>
+        <Accordion.Body>Pass guard
+          <YoutubeEmbed embedId="gB0x12lM36g" />
+        </Accordion.Body>
         <Accordion.Body>Submission</Accordion.Body>
     </Accordion.Item>
     
