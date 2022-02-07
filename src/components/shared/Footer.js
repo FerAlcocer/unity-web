@@ -30,16 +30,25 @@ export const Footer = () => {
           <Link to={ `./home` } mailto="mailto:no-reply@example.com" >martin.paz@live.com.ar</Link>
         </div>
       </div>
+      
       <div className="footer-right col-md-4 col-sm-6">
-        <h2>Unity<span> JIUJITSU</span></h2>
-        <p className="menu">
-          <Link to={ `./home` }>Home</Link>{'  |  '}
-          <Link to={ `./programs` }>Programs</Link>{'  |  '}
-          <Link to={ `./schedule` }>Schedule</Link>{'  |  '}
-          <Link to={ `./history` }>History</Link>{'  |  '}
-          <Link to={ `./career` }>Career</Link>
-        </p>
-        <p className="name"> UNITY &copy; 2022</p>
+        <div className='row'>
+          <div className='col-3'>
+            <img src={ `../assets/logo-unity.png`} alt="Unity" style={{width:"120px"}}></img>
+          </div>
+
+          <div className='col-9'>
+            <h2>Unity<span> JIUJITSU</span></h2>
+            <p className="menu">
+              <Link to={ `./home` }>Home</Link>{'  |  '}
+              <Link to={ `./programs` }>Programs</Link>{'  |  '}
+              <Link to={ `./schedule` }>Schedule</Link>{'  |  '}
+              <Link to={ `./history` }>History</Link>{'  |  '}
+              <Link to={ `./career` }>Career</Link>
+            </p>
+            <p className="name"> UNITY &copy; 2022</p>
+          </div>
+        </div>
       </div>
     </footer>
   );
