@@ -3,13 +3,11 @@ import {Accordion} from 'react-bootstrap';
 import "../../styles/Video.css";
 import "../../styles/Black.css";
 import YoutubeEmbed  from "../shared/Video";
-import { ContainerComponent } from '../shared/ContainerComponent';
+
 
 export const CareerScreen = () => {
   return (
     <>
-    <ContainerComponent text={'Career'}/>
-    
   <div className='container mt-5 '>
   <Accordion className="card-columns animate__animated animate__fadeIn">
     <Accordion.Item eventKey="0">

@@ -18,26 +18,35 @@ import { InstructorsScreen } from "../components/Academy/InstructorsScreen";
 import { Contact } from "../components/Contact/Contact";
 import { Pricing } from '../components/Academy/Pricing';
 import { Filosophy } from '../components/Academy/Filosophy';
+import { ContainerComponent } from '../components/shared/ContainerComponent';
+
+import { Footer } from "../components/shared/Footer";
+import { NavbarComponent } from "../components/shared/Navbar";
 
 export const AppRouter = () => {
   return (
-    <Switch>
-          <Route exact path={["/", "/home"]} component={Home} />
-          <Route exact path="/login" component={Login} />
-          <Route exact path="/register" component={Register} />
-          <Route exact path="/profile" component={Profile} />
-          <Route exact path="/schedule" component={ScheduleScreen} />
-          <Route exact path="/program/:programId" component={ ProgramScreen } />
-          <Route exact path="/programs" component={Programs} />
-          <Route exact path="/contact" component={Contact} />
-          <Route exact path="/get-started" component={GetStarted} />
-          <Route exact path="/pricing" component={Pricing} />
-          <Route exact path="/filosophy" component={Filosophy} />
-          <ProtectedRoute exact path="/career" component={CareerScreen} />
-          <Route exact path="/instructors" component={InstructorsScreen} />
-          <Route path="/user" component={BoardUser} />
-          <Route path="/mod" component={BoardModerator} />
-          <Route path="/admin" component={BoardAdmin} />
-    </Switch>
+    <>
+      <NavbarComponent />
+      <ContainerComponent />
+      <Switch>
+            <Route exact path={["/", "/home"]} component={Home} />
+            <Route exact path="/login" component={Login} />
+            <Route exact path="/register" component={Register} />
+            <Route exact path="/profile" component={Profile} />
+            <Route exact path="/schedule" component={ScheduleScreen} />
+            <Route exact path="/program/:programId" component={ ProgramScreen } />
+            <Route exact path="/programs" component={Programs} />
+            <Route exact path="/contact" component={Contact} />
+            <Route exact path="/get-started" component={GetStarted} />
+            <Route exact path="/pricing" component={Pricing} />
+            <Route exact path="/filosophy" component={Filosophy} />
+            <ProtectedRoute exact path="/career" component={CareerScreen} />
+            <Route exact path="/instructors" component={InstructorsScreen} />
+            <Route path="/user" component={BoardUser} />
+            <Route path="/mod" component={BoardModerator} />
+            <Route path="/admin" component={BoardAdmin} />
+      </Switch>
+      <Footer />
+    </>
   );
 };

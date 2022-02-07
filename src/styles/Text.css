@@ -1,3 +1,13 @@
 .text-center {
   text-align: center;
 }
+
+@media (min-width:1600px){
+  .pl {
+    padding-left:"400px";
+  }
+
+  .pr {
+    padding-right:"300px";
+  }
+}

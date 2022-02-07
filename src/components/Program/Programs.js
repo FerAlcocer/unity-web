@@ -3,12 +3,10 @@ import { Link } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
 import React from "react";
 import { programs } from '../../data/programs';
-import { ContainerComponent } from '../shared/ContainerComponent';
 
 const Programs = () => {
   return (
     <>
-    <ContainerComponent text={'Programs'}/>
     <Container>
       <Row>
       { programs.map(program => (

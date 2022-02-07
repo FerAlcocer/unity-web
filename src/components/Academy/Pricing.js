@@ -1,11 +1,9 @@
 import React from 'react';
-import { ContainerComponent } from '../shared/ContainerComponent';
 
 export const Pricing = () => {
 
   return (
     <>
-    <ContainerComponent text={'Pricing'}/>
     <div className="row animate__animated animate__fadeIn mt-5">
     <div  className="col-md-3"></div>
     <div  className="col-md-2">

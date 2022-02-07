@@ -6,7 +6,6 @@ import { Button } from 'react-bootstrap';
 import { isEmail } from "validator";
 import "../../styles/Text.css"
 import axios from "axios";
-import { ContainerComponent } from "../shared/ContainerComponent";
 
 const API_URL = "http://localhost:8000/api/v1/";
 
@@ -119,7 +118,6 @@ export const GetStarted = () => {
 
   return (
     <>
-    <ContainerComponent text={'Get started!'}/>
     <div className="row animate__animated animate__fadeIn mt-5">
       <div className="col-md-5" />
       <div className="col-md-2">

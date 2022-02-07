@@ -6,8 +6,6 @@ import { Button } from 'react-bootstrap';
 import { isEmail } from "validator";
 import "../../styles/Text.css"
 import axios from "axios";
-import BaseMap from "./BaseMap";
-import { ContainerComponent } from "../shared/ContainerComponent";
 
 const API_URL = "http://localhost:8000/api/v1/";
 
@@ -121,26 +119,37 @@ export const Contact = () => {
 
   return (
     <>
-      
-    <ContainerComponent text={'Contact us'}/>
     <div className="row animate__animated animate__fadeIn">
     <p className="mt-4 mb-4 text-center fs-1">Empieza ahora!</p> 
     <p className="mb-4 text-center fs-6">Todo el mundo es bienvenido a conocer nuestra academia.<br />  Si tienes dudas puedes dejar tus datos y nos comunicaremos a la brevedad.</p>
     
     <hr />
-    
-    <div  className="col-md-2" ></div >
 
-    <div className="col-md-4 text-center" >
+    <div className="col-md-4 text-center pl" >
       <strong><p className="mt-5">Black Unity</p></strong>
       <p>Carlos Pellegrini 91 (Dpto. 2, 1er. Piso)</p>
       <p>Parana, ER, Argentina</p>
       <p>Phone: (+54) 3434732733</p>
       <p>Email: staff@unity.com</p>
-
     </div >
 
-    <div className="col-md-4">
+    <div  className="col-md-4" >
+      <div className="container text-center ">
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1008.859851340617!2d-60.53173747620967!3d-31.73264888636914!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xc9d3b223bf73461f!2sUnity%20Jiu%20Jitsu!5e0!3m2!1ses!2sar!4v1644242393254!5m2!1ses!2sar"
+            width="400"
+            height="400"
+            frameBorder="0"
+            allowFullScreen=""
+            aria-hidden="false"
+            tabIndex="0"
+            style={{border: "1px solid white"}}
+            title="map"
+        />
+      </div>
+    </div >
+
+    <div className="col-md-4 pr">
     <div className="container">
           <Form onSubmit={handleRegister} ref={form}>
             {!successful && (
@@ -231,12 +240,6 @@ export const Contact = () => {
         </div>
     </div>
     <div className="col-md-2" /></div>
-
-
-    <div className="col-md-2" >
-    <BaseMap />
-    </div>
-    <div className="map-padding"></div>
     </>
   );
 };
