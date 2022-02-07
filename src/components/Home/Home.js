@@ -30,7 +30,7 @@ const Home = () => {
   return (
     <>
       <CarrouselComponent />
-      <div className='card-columns cont fs-5' ><strong>SWIPE UP TO SEE MORE CONTENT!</strong></div>
+      <div className='card-columns box' ></div>
       <Jumbotron />
       <hr />
       

@@ -1,4 +1,4 @@
-import React, { useMemo } from 'react';
+import React, { useMemo, useEffect } from 'react';
 import { useParams, Redirect } from 'react-router-dom';
 import { Link } from "react-router-dom";
 import { getProgramById } from '../../selectors/getProgramById';
@@ -9,9 +9,15 @@ const ProgramScreen = ({ history }) => {
 
     const program = useMemo(() => getProgramById( programId ), [ programId ]);
 
+    useEffect(() => {
+        window.scrollTo(0, 0)
+      }, [])
+
     if ( !program ) {
         return <Redirect to="/" />;
     }
+
+    
 
     const handleReturn = () => {
 

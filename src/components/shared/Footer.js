@@ -7,15 +7,13 @@ export const Footer = () => {
     <footer className="footer">
       <div className="footer-left col-md-4 col-sm-6">
         <p className="about">
-          <span> About the company</span> Ut congue augue non tellus bibendum, in varius tellus condimentum. In scelerisque nibh tortor, sed rhoncus odio condimentum in. Sed sed est ut sapien ultrices eleifend. Integer tellus est, vehicula eu lectus tincidunt,
-          ultricies feugiat leo. Suspendisse tellus elit, pharetra in hendrerit ut, aliquam quis augue. Nam ut nibh mollis, tristique ante sed, viverra massa.
+          <span>Acerca de Unity</span> En Unity, enseñamos Jiu Jitsu de forma técnica, conceptual y eficaz. De forma que no solo aprendemos un arte marcial, 
+          sino que también disfrutamos del deporte. Tenemos diferentes instructores según la edad y los objetivos personales del estudiante.
         </p>
         <div className="icons">
-          <Link to={ `./home` }><i className="fa fa-facebook"></i></Link>
-          <Link to={ `./home` }><i className="fa fa-twitter"></i></Link>
-          <Link to={ `./home` }><i className="fa fa-linkedin"></i></Link>
-          <Link to={ `./home` }><i className="fa fa-google-plus"></i></Link>
-          <Link to={ `./home` }><i className="fa fa-instagram"></i></Link>
+          <a href="https://www.facebook.com/unityjiujitsu"><i className="fa fa-facebook"></i></a>
+          <a href="https://www.instagram.com/unity_jiujitsu_"><i className="fa fa-instagram"></i></a>
+          <a href="https://wa.link/s6pcvu"><i className="fa fa-whatsapp"></i></a>
         </div>
       </div>
       <div className="footer-center col-md-4 col-sm-6">
@@ -29,11 +27,11 @@ export const Footer = () => {
         </div>
         <div>
           <i className="fa fa-envelope"></i>
-          <Link to={ `./home` } mailto="mailto:no-reply@example.com" > martin.paz@live.com.ar</Link>
+          <Link to={ `./home` } mailto="mailto:no-reply@example.com" >martin.paz@live.com.ar</Link>
         </div>
       </div>
       <div className="footer-right col-md-4 col-sm-6">
-        <h2> Company<span> UNITY</span></h2>
+        <h2>Unity<span> JIUJITSU</span></h2>
         <p className="menu">
           <Link to={ `./home` }>Home</Link>{'  |  '}
           <Link to={ `./programs` }>Programs</Link>{'  |  '}
@@ -43,7 +41,7 @@ export const Footer = () => {
 
          
         </p>
-        <p className="name"> Company Name &copy; 2016</p>
+        <p className="name"> UNITY &copy; 2022</p>
       </div>
     </footer>
   );

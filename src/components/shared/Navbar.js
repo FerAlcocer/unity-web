@@ -5,6 +5,7 @@ import AuthService from "../../services/auth.service";
 import EventBus from "../../common/EventBus";
 import { Navbar, Nav, NavDropdown} from 'react-bootstrap';
 import { Link } from "react-router-dom";
+import '../../styles/Navbar.css';
 
 export const NavbarComponent = () => {
   const [showModeratorBoard, setShowModeratorBoard] = useState(false);
@@ -42,7 +43,7 @@ export const NavbarComponent = () => {
            <img src={ `../assets/logo-unity.png`} alt="Unity" style={{width:"120px"}}></img>
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
-          <Navbar.Collapse id="basic-navbar-nav">
+          <Navbar.Collapse id="basic-navbar-nav" style={{paddingLeft:"20px"}}>
             <Nav className="me-auto">
               <Nav.Link as={Link} to="/home">Home</Nav.Link>
 

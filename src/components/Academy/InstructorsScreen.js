@@ -1,7 +1,12 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { instructors } from '../../data/instructors';
 
 export const InstructorsScreen = () => {
+
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
+
   return (
     <>
     <div className="container animate__animated animate__fadeIn">

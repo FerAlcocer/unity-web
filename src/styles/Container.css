@@ -5,3 +5,10 @@
   padding-top: 20px;
   padding-bottom: 20px;
 }
+
+.box{
+  background-color:rgb(91, 144, 194);
+  color:white;
+  text-align: center;
+  padding-top: 60px;
+}
