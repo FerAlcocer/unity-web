@@ -7,36 +7,36 @@ export const CarrouselComponent = () => {
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src={ `./assets/ac-1.jpg`}
+          src={ `./assets/ac-2.jpg`}
           alt="First slide"
         />
         <Carousel.Caption>
-          <h3>First slide label</h3>
-          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-        </Carousel.Caption>
-      </Carousel.Item>
-      <Carousel.Item>
-        <img
-          className="d-block w-100"
-          src={ `./assets/ac-2.jpg`}
-          alt="Second slide"
-        />
-
-        <Carousel.Caption>
-          <h3>Second slide label</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          <h3 className='fs-1'>BIENVENIDO A UNITY</h3>
+          <p className='fs-4'>Empieza a entrenar Jiu Jitsu hoy!</p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
         <img
           className="d-block w-100"
           src={ `./assets/ac-3.jpg`}
+          alt="Second slide"
+        />
+
+        <Carousel.Caption>
+          <h3 className='fs-1'>CONOCE NUESTROS PROFESORES</h3>
+          <p className='fs-4'>Busca un instructores según tus objetivos.</p>
+        </Carousel.Caption>
+      </Carousel.Item>
+      <Carousel.Item>
+        <img
+          className="d-block w-100"
+          src={ `./assets/ac-1.jpg`}
           alt="Third slide"
         />
 
         <Carousel.Caption>
-          <h3>Third slide label</h3>
-          <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+          <h3 className='fs-1'>CONOCE NUESTROS PROGRAMAS</h3>
+          <p className='fs-4'>Clases para todos los niveles y edades.</p>
         </Carousel.Caption>
       </Carousel.Item>
     </Carousel>
