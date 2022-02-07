@@ -6,6 +6,7 @@ import { Button } from 'react-bootstrap';
 import { isEmail } from "validator";
 import "../../styles/Text.css"
 import axios from "axios";
+import BaseMap from "./BaseMap";
 
 const API_URL = "http://localhost:8000/api/v1/";
 
@@ -116,12 +117,14 @@ export const Contact = () => {
     }
   };
 
+
   return (
     <>
+      
+ 
     <div className="row animate__animated animate__fadeIn">
-      <div className="col-md-5">
-
-      </div>
+    <div  className="col-md-5" >
+    </div >
       
       <div className="col-md-2">
         <div className="container">
@@ -217,6 +220,10 @@ export const Contact = () => {
       </div>
       <div className="col-md-5" />
     </div>
+    <div className="col-md-5" >
+    <BaseMap />
+    </div>
+    <div className="map-padding"></div>
     </>
   );
 };
