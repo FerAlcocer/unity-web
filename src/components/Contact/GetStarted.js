@@ -6,6 +6,7 @@ import { Button } from 'react-bootstrap';
 import { isEmail } from "validator";
 import "../../styles/Text.css"
 import axios from "axios";
+import { ContainerComponent } from "../shared/ContainerComponent";
 
 const API_URL = "http://localhost:8000/api/v1/";
 
@@ -118,11 +119,11 @@ export const GetStarted = () => {
 
   return (
     <>
-    <div className="row animate__animated animate__fadeIn">
+    <ContainerComponent text={'Get started!'}/>
+    <div className="row animate__animated animate__fadeIn mt-5">
       <div className="col-md-5" />
       <div className="col-md-2">
-        <div className="container">
-        <p className="mt-4 mb-4 text-center">Get started!</p>
+        <div className="container ">
 
           <Form onSubmit={handleRegister} ref={form}>
             {!successful && (

@@ -3,9 +3,13 @@ import {Accordion} from 'react-bootstrap';
 import "../../styles/Video.css";
 import "../../styles/Black.css";
 import YoutubeEmbed  from "../shared/Video";
+import { ContainerComponent } from '../shared/ContainerComponent';
 
 export const CareerScreen = () => {
   return (
+    <>
+    <ContainerComponent text={'Career'}/>
+    
   <div className='container mt-5 '>
   <Accordion className="card-columns animate__animated animate__fadeIn">
     <Accordion.Item eventKey="0">
@@ -25,6 +29,7 @@ export const CareerScreen = () => {
         <Accordion.Body>Takedown</Accordion.Body>
         <Accordion.Body>Pass guard
           <YoutubeEmbed embedId="gB0x12lM36g" />
+          <YoutubeEmbed embedId="PvbqMzB1_Yo" />
         </Accordion.Body>
         <Accordion.Body>Submission</Accordion.Body>
     </Accordion.Item>
@@ -88,5 +93,6 @@ export const CareerScreen = () => {
         </Accordion.Item>
   </Accordion>
   </div>
+  </>
   )
 };

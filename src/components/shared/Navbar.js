@@ -45,25 +45,24 @@ export const NavbarComponent = () => {
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="me-auto">
               <Nav.Link as={Link} to="/home">Home</Nav.Link>
-              <Nav.Link as={Link} to="/programs">Programs</Nav.Link>
-              <Nav.Link as={Link} to="/schedule">Schedule</Nav.Link>
-              <Nav.Link as={Link} to='/about'>About</Nav.Link>
-              <Nav.Link as={Link} to='/contact'>Contact</Nav.Link>
 
               <NavDropdown title="Academy" id="basic-nav-dropdown">
-                <NavDropdown.Item as={Link} to='/history'>History</NavDropdown.Item>
+                <NavDropdown.Item as={Link} to='/filosophy'>Filosophy</NavDropdown.Item>
+                <NavDropdown.Item as={Link} to='/photos-video'>Photo & Video</NavDropdown.Item>
                 <NavDropdown.Item as={Link} to='/instructors'>Instructors</NavDropdown.Item>
+                <NavDropdown.Item as={Link} to="/schedule">Schedule</NavDropdown.Item>
+                <NavDropdown.Item as={Link} to="/pricing">Pricing</NavDropdown.Item>
               </NavDropdown>
-              
 
+              <Nav.Link as={Link} to="/programs">Programs</Nav.Link>
+              
+              <Nav.Link as={Link} to='/contact'>Contact</Nav.Link>
+              
               {
                 currentUser ? (
                   <>
                     <Nav.Link as={Link} to="/career" className="nav-link">
                     Career
-                    </Nav.Link>
-                    <Nav.Link as={Link} to="/library" className="nav-link">
-                    Library
                     </Nav.Link>
                   </>
                 ) : (

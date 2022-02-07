@@ -7,6 +7,7 @@ import { isEmail } from "validator";
 import "../../styles/Text.css"
 import axios from "axios";
 import BaseMap from "./BaseMap";
+import { ContainerComponent } from "../shared/ContainerComponent";
 
 const API_URL = "http://localhost:8000/api/v1/";
 
@@ -121,15 +122,26 @@ export const Contact = () => {
   return (
     <>
       
- 
+    <ContainerComponent text={'Contact us'}/>
     <div className="row animate__animated animate__fadeIn">
-    <div  className="col-md-5" >
-    </div >
-      
-      <div className="col-md-2">
-        <div className="container">
-        <p className="mt-4 mb-4 text-center">Get started!</p>
+    <p className="mt-4 mb-4 text-center fs-1">Empieza ahora!</p> 
+    <p className="mb-4 text-center fs-6">Todo el mundo es bienvenido a conocer nuestra academia.<br />  Si tienes dudas puedes dejar tus datos y nos comunicaremos a la brevedad.</p>
+    
+    <hr />
+    
+    <div  className="col-md-2" ></div >
 
+    <div className="col-md-4 text-center" >
+      <strong><p className="mt-5">Black Unity</p></strong>
+      <p>Carlos Pellegrini 91 (Dpto. 2, 1er. Piso)</p>
+      <p>Parana, ER, Argentina</p>
+      <p>Phone: (+54) 3434732733</p>
+      <p>Email: staff@unity.com</p>
+
+    </div >
+
+    <div className="col-md-4">
+    <div className="container">
           <Form onSubmit={handleRegister} ref={form}>
             {!successful && (
               <div>
@@ -217,10 +229,11 @@ export const Contact = () => {
             <CheckButton style={{ display: "none" }} ref={checkBtn} />
           </Form>
         </div>
-      </div>
-      <div className="col-md-5" />
     </div>
-    <div className="col-md-5" >
+    <div className="col-md-2" /></div>
+
+
+    <div className="col-md-2" >
     <BaseMap />
     </div>
     <div className="map-padding"></div>

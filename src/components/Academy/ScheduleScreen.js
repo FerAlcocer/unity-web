@@ -1,7 +1,10 @@
 import React from 'react';
+import { ContainerComponent } from '../shared/ContainerComponent';
 
 export const ScheduleScreen = () => {
   return (
+      <>
+      <ContainerComponent text={'Schedule'}/>
     <div className="container animate__animated animate__fadeIn" style={{marginTop:"20px"}}>
 <div className="timetable-img text-center">
   <img src={ `./assets/heroes/dc-batman.jpg` } alt=""></img>
@@ -186,6 +189,6 @@ export const ScheduleScreen = () => {
   </table>
   </div>
   </div>
-
+  </>
   );
 };

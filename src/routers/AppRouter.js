@@ -11,12 +11,13 @@ import BoardModerator from "../components/BoardModerator";
 import BoardAdmin from "../components/BoardAdmin";
 import ProtectedRoute from "../services/ProtectedRoute"
 
-import { ScheduleScreen } from "../components/views/ScheduleScreen";
-import { Library } from "../components/views/Library";
+import { ScheduleScreen } from "../components/Academy/ScheduleScreen";
 import { CareerScreen } from "../components/views/CareerScreen";
 import { GetStarted } from "../components/Contact/GetStarted";
-import { InstructorsScreen } from "../components/views/InstructorsScreen";
+import { InstructorsScreen } from "../components/Academy/InstructorsScreen";
 import { Contact } from "../components/Contact/Contact";
+import { Pricing } from '../components/Academy/Pricing';
+import { Filosophy } from '../components/Academy/Filosophy';
 
 export const AppRouter = () => {
   return (
@@ -29,8 +30,9 @@ export const AppRouter = () => {
           <Route exact path="/program/:programId" component={ ProgramScreen } />
           <Route exact path="/programs" component={Programs} />
           <Route exact path="/contact" component={Contact} />
-          <Route exact path="/library" component={Library} />
           <Route exact path="/get-started" component={GetStarted} />
+          <Route exact path="/pricing" component={Pricing} />
+          <Route exact path="/filosophy" component={Filosophy} />
           <ProtectedRoute exact path="/career" component={CareerScreen} />
           <Route exact path="/instructors" component={InstructorsScreen} />
           <Route path="/user" component={BoardUser} />

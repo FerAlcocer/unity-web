@@ -1,19 +1,19 @@
 .map {
-  margin-top: 650px;
+  margin-top: 850px;
   margin-left: 25%;
   position:absolute;
   width: 50%;
   height: 50%;
-            z-index: 1000;
-            background: #fff;
-            padding: 10px;
-            font-family: 'Open Sans', sans-serif;
-            top: 5px;
-            left: 5px;
-            border-radius: 7px;
-            -webkit-box-shadow: 5px 5px 5px -5px rgba(0, 0, 0, 0.75);
-            -moz-box-shadow: 5px 5px 5px -5px rgba(0, 0, 0, 0.75);
-            box-shadow: 5px 5px 5px -5px rgba(0, 0, 0, 0.75);
+  z-index: 1000;
+  background: #fff;
+  padding: 10px;
+  font-family: 'Open Sans', sans-serif;
+  top: 5px;
+  left: 5px;
+  border-radius: 7px;
+  -webkit-box-shadow: 5px 5px 5px -5px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 5px 5px 5px -5px rgba(0, 0, 0, 0.75);
+  box-shadow: 5px 5px 5px -5px rgba(0, 0, 0, 0.75);
 }
 
 .map-padding {

@@ -10,7 +10,9 @@ import { AppRouter } from "./routers/AppRouter";
 const App = () => {
   return (
     <>
+      
       <NavbarComponent />
+        
         <AppRouter />
         
       {/* <AuthVerify logOut={logOut}/> */}

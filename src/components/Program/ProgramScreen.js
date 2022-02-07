@@ -2,6 +2,7 @@ import React, { useMemo } from 'react';
 import { useParams, Redirect } from 'react-router-dom';
 import { Link } from "react-router-dom";
 import { getProgramById } from '../../selectors/getProgramById';
+import { ContainerComponent } from '../shared/ContainerComponent';
 
 const ProgramScreen = ({ history }) => {
 
@@ -30,6 +31,9 @@ const ProgramScreen = ({ history }) => {
     } = program;
     
     return (
+        <>
+            <ContainerComponent text={ program.Name}/>
+        
         <div className="row mt-5 animate__animated animate__fadeIn">
             <div className="col-4">
                 <img 
@@ -90,8 +94,8 @@ const ProgramScreen = ({ history }) => {
                 </div>
             </div>
         </div>
+        </>
     )
-    /*return (<div></div>)*/
 }
 
 export default ProgramScreen;

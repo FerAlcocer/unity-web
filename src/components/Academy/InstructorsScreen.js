@@ -1,9 +1,11 @@
 import React from 'react';
 import { instructors } from '../../data/instructors';
+import { ContainerComponent } from '../shared/ContainerComponent';
 
 export const InstructorsScreen = () => {
   return (
     <>
+    <ContainerComponent text={'Instructors'}/>
     <div className="container animate__animated animate__fadeIn">
       {
       instructors.map(instructor => (
