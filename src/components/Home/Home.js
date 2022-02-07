@@ -44,7 +44,7 @@ const Home = () => {
       <div className='card-columns cont fs-4'><strong>Ready to Get Started?</strong> Begin Your Journey.</div>
       
       <div className="fs-4 text-center mt-4" >
-        <p><strong>BLACK UNITY</strong>, Carlos Pellegrini 91 (Dpto. 2, 1er. Piso), PARANA, E.R., 3100, ARGENTINA</p>
+        <p> <i className="fa fa-map-marker"></i>{' '}<strong>BLACK UNITY</strong>, Carlos Pellegrini 91 (Dpto. 2, 1er. Piso), PARANA, E.R., 3100, ARGENTINA</p>
       </div>
 
       <div className="container text-center mt-4">

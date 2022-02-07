@@ -3,7 +3,7 @@ import React from 'react';
 export const InstagramCards = () => {
   return (
     <>
-    <div className='card-columns cont fs-4' >Join us on Instagram <i className="fa fa-instagram" />{' |  '}<strong>@unity_jiujitsu_</strong></div>
+    <div className='card-columns cont fs-4' ><i className="fa fa-instagram" /> Join us on Instagram <strong ><a href="https://www.instagram.com/unity_jiujitsu_" style={{color:"white"}}>@unity_jiujitsu_</a></strong></div>
     <div className="conteiner" style={{marginLeft:"20px",marginRight:"20px"}}>
 
       <div className="col-12">

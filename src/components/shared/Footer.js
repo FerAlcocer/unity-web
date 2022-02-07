@@ -7,7 +7,7 @@ export const Footer = () => {
     <footer className="footer">
       <div className="footer-left col-md-4 col-sm-6">
         <p className="about">
-          <span>Acerca de Unity</span> En Unity, enseñamos Jiu Jitsu de forma técnica, conceptual y eficaz. De forma que no solo aprendemos un arte marcial, 
+          <span>Acerca de Unity</span> En Unity enseñamos Jiu Jitsu de forma técnica, conceptual y eficaz. De forma que no solo aprendemos un arte marcial, 
           sino que también disfrutamos del deporte. Tenemos diferentes instructores según la edad y los objetivos personales del estudiante.
         </p>
         <div className="icons">
@@ -19,7 +19,7 @@ export const Footer = () => {
       <div className="footer-center col-md-4 col-sm-6">
         <div>
           <i className="fa fa-map-marker"></i>
-          <p><span> Pellegrini 91</span> Parana, Argentina</p>
+          <p><span> Pellegrini 91</span> Paraná, ER, Argentina</p>
         </div>
         <div>
           <i className="fa fa-phone"></i>
@@ -38,8 +38,6 @@ export const Footer = () => {
           <Link to={ `./schedule` }>Schedule</Link>{'  |  '}
           <Link to={ `./history` }>History</Link>{'  |  '}
           <Link to={ `./career` }>Career</Link>
-
-         
         </p>
         <p className="name"> UNITY &copy; 2022</p>
       </div>
