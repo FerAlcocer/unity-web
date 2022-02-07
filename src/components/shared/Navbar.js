@@ -42,8 +42,8 @@ export const NavbarComponent = () => {
           <Navbar.Brand as={Link} to="/home">
            <img src={ `../assets/logo-unity.png`} alt="Unity" style={{width:"120px"}}></img>
           </Navbar.Brand>
-          <Navbar.Toggle aria-controls="basic-navbar-nav" />
-          <Navbar.Collapse id="basic-navbar-nav" style={{paddingLeft:"20px"}}>
+          <Navbar.Toggle aria-controls="basic-navbar-nav" style={{marginRight:"20px"}}/>
+          <Navbar.Collapse id="basic-navbar-nav" style={{paddingLeft:"20px", paddingRight:"20px"}}>
             <Nav className="me-auto">
               <Nav.Link as={Link} to="/home">Home</Nav.Link>
 
