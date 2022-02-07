@@ -143,7 +143,7 @@ export const Contact = () => {
             allowFullScreen=""
             aria-hidden="false"
             tabIndex="0"
-            style={{border: "1px solid white"}}
+            style={{border: "1px solid black"}}
             title="map"
         />
       </div>
