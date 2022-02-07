@@ -60,9 +60,9 @@ const ProgramScreen = ({ history }) => {
 
 
 
-            <div class="row">
+            <div className="row">
                 <div className='col-5'></div>
-                <div class="col-2 text-center d-grid gap-2">
+                <div className="col-2 text-center d-grid gap-2">
                     <button 
                         className="btn btn-outline-info"
                         onClick={ handleReturn }

@@ -12,8 +12,7 @@ export const CarrouselComponent = () => {
           alt="First slide"
         />
         <Carousel.Caption>
-          <h1 className='fs-2 text-highlight'>ACADEMIA DE JIU JITSU</h1>
-          <h1 className='fs-5 text-highlight'>Comenzá hoy!</h1>
+          <h1 className='fs-3 '>ACADEMIA DE JIU JITSU</h1>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
@@ -24,8 +23,7 @@ export const CarrouselComponent = () => {
         />
 
         <Carousel.Caption>
-          <h1 className='fs-2 text-highlight'>CONOCE NUESTROS PROFESORES</h1>
-          <h1 className='fs-5 text-highlight'>Busca un instructores según tus objetivos.</h1>
+          <h1 className='fs-3 '>CONOCE NUESTROS PROGRAMAS</h1>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
@@ -36,8 +34,7 @@ export const CarrouselComponent = () => {
         />
 
         <Carousel.Caption>
-          <h1 className='fs-2 text-highlight'>CONOCE NUESTROS PROGRAMAS</h1>
-          <h1 className='fs-5 text-highlight'>Clases para todos los niveles y edades.</h1>
+          <h1 className='fs-3 '>CONOCE NUESTROS PROFESORES</h1>
         </Carousel.Caption>
       </Carousel.Item>
     </Carousel>
