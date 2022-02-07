@@ -1,5 +1,6 @@
 import React from 'react';
 import { Carousel } from 'react-bootstrap';
+import '../../styles/Text.css';
 
 export const CarrouselComponent = () => {
   return (
@@ -11,8 +12,8 @@ export const CarrouselComponent = () => {
           alt="First slide"
         />
         <Carousel.Caption>
-          <h3 className='fs-1'>BIENVENIDO A UNITY</h3>
-          <p className='fs-4'>Empieza a entrenar Jiu Jitsu hoy!</p>
+          <h1 className='fs-2 text-highlight'>ACADEMIA DE JIU JITSU</h1>
+          <h1 className='fs-5 text-highlight'>Comenzá hoy!</h1>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
@@ -23,8 +24,8 @@ export const CarrouselComponent = () => {
         />
 
         <Carousel.Caption>
-          <h3 className='fs-1'>CONOCE NUESTROS PROFESORES</h3>
-          <p className='fs-4'>Busca un instructores según tus objetivos.</p>
+          <h1 className='fs-2 text-highlight'>CONOCE NUESTROS PROFESORES</h1>
+          <h1 className='fs-5 text-highlight'>Busca un instructores según tus objetivos.</h1>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
@@ -35,8 +36,8 @@ export const CarrouselComponent = () => {
         />
 
         <Carousel.Caption>
-          <h3 className='fs-1'>CONOCE NUESTROS PROGRAMAS</h3>
-          <p className='fs-4'>Clases para todos los niveles y edades.</p>
+          <h1 className='fs-2 text-highlight'>CONOCE NUESTROS PROGRAMAS</h1>
+          <h1 className='fs-5 text-highlight'>Clases para todos los niveles y edades.</h1>
         </Carousel.Caption>
       </Carousel.Item>
     </Carousel>
