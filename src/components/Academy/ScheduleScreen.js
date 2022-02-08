@@ -1,11 +1,11 @@
-import React from 'react';
+import React, { useEffect } from 'react';import React from 'react';
 
 export const ScheduleScreen = () => {
 
     useEffect(() => {
         window.scrollTo(0, 0)
     }, [])
-    
+
   return (
       <>
     <div className="container animate__animated animate__fadeIn" style={{marginTop:"20px"}}>
