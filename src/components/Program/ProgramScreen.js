@@ -11,7 +11,7 @@ const ProgramScreen = ({ history }) => {
 
     useEffect(() => {
         window.scrollTo(0, 0)
-      }, [])
+    }, [])
 
     if ( !program ) {
         return <Redirect to="/" />;
