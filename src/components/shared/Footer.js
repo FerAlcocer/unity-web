@@ -46,7 +46,7 @@ export const Footer = () => {
               <Link to={ `./history` }>History</Link>{'  |  '}
               <Link to={ `./career` }>Career</Link>
             </p>
-            <p className="name"> UNITY &copy; 2022</p>
+            <p className="name"> Copyright &copy; 2022</p>
           </div>
         </div>
       </div>

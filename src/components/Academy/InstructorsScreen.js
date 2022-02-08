@@ -12,16 +12,32 @@ export const InstructorsScreen = () => {
     <div className="container animate__animated animate__fadeIn">
       {
       instructors.map(instructor => (
-        <div className="card mb-3" key={instructor.id}>
+        <div className="card mb-3 border-0" key={instructor.id}> 
         <div className="row g-0">
           <div className="col-md-4">
-            <img src="" className="img-fluid rounded-start" alt="..." />
+            <img src={ "./assets/profiles/"+instructor.id+".jpg" } className="img-fluid rounded-start" style= {{"paddingRight":"50px"}} alt="..." />
           </div>
           <div className="col-md-8">
             <div className="card-body">
-              <h5 className="card-title">{ instructor.Name }</h5>
-              <p className="card-text"><b><small className="text-muted">{ instructor.m_Description }</small></b></p>
-              <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <h5 className="card-title"><strong className='fs-1'>{ instructor.Name } </strong>{ instructor.Rank }</h5>
+              <p className="card-text fs-3"><b><small className="text-muted">{ instructor.m_Description }</small></b></p>
+              
+              <hr />
+
+              <p className="card-text fs-5"><strong>Objetivos</strong></p>
+              {
+                instructor.objetivos.map((c) => (<p className="card-text">{ c }</p>))
+              }
+
+
+              <p className="card-text fs-5"><strong>Plan de estudio</strong></p>
+              {
+                instructor.plan.map((c) => (<p className="card-text">{ c }</p>))
+              }
+
+
+              <p className="card-text fs-5"><strong>Horario </strong>{instructor.horario}</p>
+              
             </div>
           </div>
         </div>
