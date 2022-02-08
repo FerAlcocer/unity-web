@@ -31,3 +31,67 @@
 .font-resize-carrousel{
   font-size: calc(1vw + 4vh + 1vmin) !important
 }
+
+.text-title {
+  z-index: 100;
+  position: absolute;
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  left: 250px;
+  top: 350px;
+}
+
+:hover .head-text {
+  position: relative;
+}
+
+.text-on-image {
+ position: absolute;
+ right: 50%;
+ left: 10%;
+ bottom: -1600%;
+
+ 
+}
+
+.text-on-image-style {
+  color: white;
+}
+
+.font-resize-cards{
+  font-size: calc(4vw + 4vh + 1vmin) !important;
+  
+  animation: 2s slide-right;
+  animation-delay: 2s;
+}
+
+
+@media (max-width:1200px){
+  .font-resize-cards{
+    font-size: calc(0vw + 3vh + 0vmin) !important;
+    bottom: 0%;
+  }
+}
+
+@keyframes slide-right {
+  from {
+    margin-left: -500px;
+  }
+
+  to {
+    margin-left: 0%;
+  }
+}
+
+
+
+.card-title{
+  text-align: center;
+  font-size: calc(0vw + 4vh + 1vmin) !important
+}
+
+.button-box {
+  min-height: 100%;
+  width: 90%;
+}
