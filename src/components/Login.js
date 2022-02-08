@@ -99,12 +99,12 @@ const Login = (props) => {
             />
           </div>
 
-          <div className="form-group">
-            <button className="btn btn-primary btn-block" disabled={loading}>
+          <div className="form-group mt-4 d-grid gap-2">
+            <button className="btn btn-primary btn-block " variant="primary" size="lg"  disabled={loading}>
               {loading && (
                 <span className="spinner-border spinner-border-sm"></span>
               )}
-              <span>Login</span>
+              <span >Login</span>
             </button>
           </div>
 

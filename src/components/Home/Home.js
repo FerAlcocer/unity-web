@@ -3,6 +3,7 @@ import { CarrouselComponent } from "./CarrouselComponent";
 import { Jumbotron } from "./Jumbotron";
 import { HomeCards } from "./HomeCards";
 import { InstagramCards } from "./InstagramCards";
+import { FAQ } from "./FAQ";
 import { Info } from "./Info";
 import '../../styles/Container.css';
 import '../../styles/Imagen.css';
@@ -33,10 +34,8 @@ const Home = () => {
       <CarrouselComponent />
       <div className='card-columns box' ></div>
       <Jumbotron />
-      <hr />
-      
-
       <HomeCards />
+      <FAQ />
       <InstagramCards />
 
       <Info />

@@ -49,12 +49,12 @@ const ProgramScreen = ({ history }) => {
             <div className="col-8">
                 <h3> { Name } </h3>
                 <ul className="list-group list-group-flush">
-                    <li className="list-group-item"> <b> Alter ego: </b> { m_Description } </li>
-                    <li className="list-group-item"> <b> Publisher: </b> { m_Description } </li>
-                    <li className="list-group-item"> <b> First appearance: </b> { m_Description } </li>
+                    <li className="list-group-item"> <b> Instructor: </b> { m_Description } </li>
+                    <li className="list-group-item"> <b> Duration: </b> { m_Description } </li>
+                    <li className="list-group-item"> <b> Level: </b> { m_Description } </li>
                 </ul>
 
-                <h5> Characters </h5>
+                <h5> Information </h5>
                 <p> { M_Description } </p>
             </div>
 

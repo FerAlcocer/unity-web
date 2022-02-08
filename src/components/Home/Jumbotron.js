@@ -7,13 +7,14 @@ import { Button } from 'react-bootstrap';
 export const Jumbotron = () => {
   return (
     <>
-    <div className='box-v2 font-resize animate__animated animate__fadeIn'><strong>WELCOME TO UNITY</strong></div>
-    <div className="jumbotron jumbotron-fluid animate__animated animate__fadeIn">
-      <div className="container mt-4">
-        <p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-          <p className="lead">
+    <div className='box-v2 font-resize animate__animated animate__fadeIn' ><strong>BIENVENIDO A UNITY</strong></div>
+    <div className="jumbotron jumbotron-fluid animate__animated animate__fadeIn " style={{"background":"black", "color":"white"}}>
+      <div className="container">
+        <p style={{color:"white"}}>En Unity enseñamos Jiu Jitsu de forma técnica, conceptual y eficaz. De forma que no solo aprendemos un arte marcial, sino que también disfrutamos del deporte. Tenemos diferentes instructores según la edad y los objetivos personales del estudiante.</p>
+          <hr/>
+          <p className="lead text-center mt-4" style={{paddingTop:"33px"}}>
           <Link to={ `./filosophy` }>
-              <Button variant="primary" >LEARN MORE</Button>
+              <Button className="fs-2" variant="primary">NUESTRA FILOSOFÍA</Button>
           </Link> 
           </p>
       </div>

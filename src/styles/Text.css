@@ -95,3 +95,11 @@
   min-height: 100%;
   width: 90%;
 }
+
+.btn-Effect {
+  border: none;
+  opacity: 1;
+  transition: 1s;
+}
+
+.btn-Effect:hover {opacity: 0.8}
