@@ -38,7 +38,7 @@ export const NavbarComponent = () => {
   };
 
   return (
-    <Navbar bg="dark" variant="dark" expand="lg">
+    <Navbar bg="black" variant="dark" expand="lg">
           <Navbar.Brand as={Link} to="/home">
            <img src={ `../assets/logo-unity.png`} alt="Unity" style={{width:"120px"}}></img>
           </Navbar.Brand>

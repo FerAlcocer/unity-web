@@ -1,10 +1,11 @@
 import React from 'react';
+import  '../../styles/Text.css'
 
 export const InstagramCards = () => {
   return (
     <>
-    <div className='card-columns cont fs-4' ><i className="fa fa-instagram" /> Join us on Instagram <strong ><a href="https://www.instagram.com/unity_jiujitsu_" style={{color:"white"}}>@unity_jiujitsu_</a></strong></div>
-    <div className="conteiner" style={{marginLeft:"20px",marginRight:"20px"}}>
+    <div className='card-columns box-v2 font-resize animate__animated animate__fadeIn'><i className="fa fa-instagram" /> Join us on Instagram <strong ><a href="https://www.instagram.com/unity_jiujitsu_" style={{color:"white",textDecoration:"none"}}>@unity_jiujitsu_</a></strong></div>
+    <div className="conteiner animate__animated animate__fadeIn" style={{marginLeft:"20px",marginRight:"20px"}}>
 
       <div className="col-12">
       <span className="filt"><img className="imagen" alt="" src="./assets/instagram/1.jpg"/></span>

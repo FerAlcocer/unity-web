@@ -4,7 +4,7 @@ import '../../styles/Text.css';
 
 export const CarrouselComponent = () => {
   return (
-    <Carousel fade className="card-columns animate__animated animate__fadeIn">
+    <Carousel className="animate__animated animate__fadeIn">
       <Carousel.Item>
         <img
           className="d-block w-100"
@@ -12,7 +12,7 @@ export const CarrouselComponent = () => {
           alt="First slide"
         />
         <Carousel.Caption>
-          <h1 className='fs-3 '>ACADEMIA DE JIU JITSU</h1>
+          <h1 className='font-resize'>ACADEMIA DE JIU JITSU</h1>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
@@ -23,7 +23,7 @@ export const CarrouselComponent = () => {
         />
 
         <Carousel.Caption>
-          <h1 className='fs-3 '>CONOCE NUESTROS PROGRAMAS</h1>
+          <h1 className='font-resize '>CONOCE NUESTROS PROGRAMAS</h1>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
@@ -34,7 +34,7 @@ export const CarrouselComponent = () => {
         />
 
         <Carousel.Caption>
-          <h1 className='fs-3 '>CONOCE NUESTROS PROFESORES</h1>
+          <h1 className='font-resize '>CONOCE NUESTROS PROFESORES</h1>
         </Carousel.Caption>
       </Carousel.Item>
     </Carousel>
