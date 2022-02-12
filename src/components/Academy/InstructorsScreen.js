@@ -19,7 +19,7 @@ export const InstructorsScreen = () => {
           </div>
           <div className="col-md-8">
             <div className="card-body">
-              <h5 className="card-title"><strong className='fs-1'>{ instructor.Name } </strong>{ instructor.Rank }</h5>
+              <h1 className="card-title"><strong >{ instructor.Name } </strong>{ instructor.Rank }</h1>
               <p className="card-text fs-3"><b><small className="text-muted">{ instructor.m_Description }</small></b></p>
               
               <hr />

@@ -15,9 +15,8 @@ export const Pricing = () => {
     <h4>WALK-INS:</h4>
       <p>
         <strong>Mat fees</strong> 
-        <br />$400 per session
         <br />$500 per day
-        <br />$2500 per session
+        <br />$2500 per month
       </p>
 
       <p>

@@ -22,6 +22,7 @@ export const ContainerComponent = () => {
       location.pathname === "/contact" ? (<div className='card-columns animate__animated animate__fadeIn cont fs-1'>CONTACT</div>):
       location.pathname === "/career" ? (<div className='card-columns animate__animated animate__fadeIn cont fs-1'>CAREER</div>):
       location.pathname === "/get-started" ? (<div className='card-columns animate__animated animate__fadeIn cont fs-1'>GET STARTED!</div>):
+      location.pathname === "/photos-video" ? (<div className='card-columns animate__animated animate__fadeIn cont fs-1'>FOTOS Y VIDEOS</div>):
       location.pathname.includes("/program/") ? (<div className='card-columns animate__animated animate__fadeIn cont fs-1'>PROGRAMS</div>):
       (
         <></>

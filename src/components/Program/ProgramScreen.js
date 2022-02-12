@@ -17,8 +17,6 @@ const ProgramScreen = ({ history }) => {
         return <Redirect to="/" />;
     }
 
-    
-
     const handleReturn = () => {
 
         if( history.length <=2 ) {

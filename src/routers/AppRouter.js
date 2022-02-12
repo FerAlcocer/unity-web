@@ -22,6 +22,7 @@ import { ContainerComponent } from '../components/shared/ContainerComponent';
 
 import { Footer } from "../components/shared/Footer";
 import { NavbarComponent } from "../components/shared/Navbar";
+import { PhotoAndVideo } from '../components/views/PhotoAndVideo/PhotoAndVideo';
 
 export const AppRouter = () => {
   return (
@@ -40,6 +41,7 @@ export const AppRouter = () => {
             <Route exact path="/get-started" component={GetStarted} />
             <Route exact path="/pricing" component={Pricing} />
             <Route exact path="/filosophy" component={Filosophy} />
+            <Route exact path="/photos-video" component={PhotoAndVideo} />
             <ProtectedRoute exact path="/career" component={CareerScreen} />
             <Route exact path="/instructors" component={InstructorsScreen} />
             <Route path="/user" component={BoardUser} />
