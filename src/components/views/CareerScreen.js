@@ -12,7 +12,7 @@ export const CareerScreen = () => {
     <>
 
       <div className="container mt-4">
-        <p >Aqui encontraras una serie de videos de técnicas básicas y avanzadas de Jiu Jitus. Nuestra intención es que tengas estos fundamentos para poder aprovechar el 100% de nuestras clases. Cualquier duda o detalle puedes preguntarle directamente a cualquier cinturón negro de nuestra academia.</p>
+        <p >En esta sección encontraras una serie de videos e información adicional de técnicas básicas y avanzadas de Jiu Jitsu. Nuestra intención es que tengas estos fundamentos para poder aprovechar el 100% de nuestras clases. Cualquier duda o detalle puedes preguntarle directamente a cualquier cinturón negro de nuestra academia.</p>
       </div>
 
 
@@ -20,7 +20,7 @@ export const CareerScreen = () => {
   <div className='container mt-5 '>
   <Accordion className="card-columns animate__animated animate__fadeIn">
     <Accordion.Item eventKey="0">
-      <Accordion.Header>#1 - Basic Solo drills</Accordion.Header>
+      <Accordion.Header>#1 - Solo drills</Accordion.Header>
       
       <Accordion.Body>Technical stand up
         <YoutubeEmbed embedId="WVmPijtk9sw" />
@@ -32,7 +32,7 @@ export const CareerScreen = () => {
     </Accordion.Item>
 
     <Accordion.Item eventKey="1">
-      <Accordion.Header>#2 - Introduction BJJ techniques</Accordion.Header>
+      <Accordion.Header>#2 - Introducción de tecnicas de Jiu Jitsu</Accordion.Header>
         <Accordion.Body>Takedown</Accordion.Body>
         <Accordion.Body>Pass guard
           <YoutubeEmbed embedId="gB0x12lM36g" />
@@ -42,17 +42,17 @@ export const CareerScreen = () => {
     </Accordion.Item>
     
     <Accordion.Item eventKey="2">
-    <Accordion.Header>Basic rules</Accordion.Header>
-        <Accordion.Body>You are not allowed to strike</Accordion.Body>
-        <Accordion.Body>You are not allowed to pull your partners hair</Accordion.Body>
-        <Accordion.Body>You are not allowed to place a finger in the eye or inside the mouth of your partner</Accordion.Body>
-        <Accordion.Body>You are not allowed to hold individual fingers and bend them</Accordion.Body>
-        <Accordion.Body>You are not allowed to reap your partner’s knee</Accordion.Body>
-        <Accordion.Body>You are not allowed to lift your partner and slam them</Accordion.Body>
+    <Accordion.Header>Reglas básicas</Accordion.Header>
+        <Accordion.Body>No puedes golpear.</Accordion.Body>
+        <Accordion.Body>No puedes agarrar el pelo.</Accordion.Body>
+        <Accordion.Body>No esta permitido meter un dedo en el ojo o la boca.</Accordion.Body>
+        <Accordion.Body>No esta permitido agarrar un dedo individualmente o doblarlos.</Accordion.Body>
+        <Accordion.Body>En cualquier movimiento que implique torsion de rodilla no esta permitido palanquear la posición.</Accordion.Body>
+        <Accordion.Body>No esta permitido levantar y azotar a tu compañero</Accordion.Body>
     </Accordion.Item>
     
     <Accordion.Item eventKey="3">
-    <Accordion.Header>Glosary</Accordion.Header>
+    <Accordion.Header>Glosario</Accordion.Header>
         <Accordion.Body>
           <div>
             <b>Americana</b> — A basic submission where the arm is bent and twisted towards the head in order to crank the shoulder. Also called American armbar, bent armlock, chicken wing, hammer lock, paint brush, top wrist lock, ude garami, and v-lock.
