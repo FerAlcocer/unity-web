@@ -10,26 +10,26 @@ export const HomeCards = () => {
 
     <div className="col mb-4 text-center">
     <Link to={ `./program/1` }>
-    <Button className="card-title button-box btn-Effect" variant="dark">KIDS CLASS</Button>
+    <Button className="card-title button-box btn-Effect" variant="dark">CLASE KIDS</Button>
     </Link>
     </div>
     
 
     <div className="col  mb-4 text-center">
     <Link to={ `./program/0` }>
-    <Button className="card-title button-box btn-Effect" variant="dark">INTRODUCTION CLASS</Button>
+    <Button className="card-title button-box btn-Effect" variant="dark">INICIANTES</Button>
     </Link>
     </div>
 
     <div className="col  mb-4 text-center">
     <Link to={ `./schedule` }>
-    <Button className="card-title button-box btn-Effect" variant="dark">SCHEDULE</Button>
+    <Button className="card-title button-box btn-Effect" variant="dark">HORARIOS</Button>
     </Link>
     </div>
 
     <div className="col  mb-4 text-center">
     <Link to={ `./instructors` }>
-    <Button className="card-title button-box btn-Effect" variant="dark">INSTRUCTORS</Button>
+    <Button className="card-title button-box btn-Effect" variant="dark">INSTRUCTORES</Button>
     </Link>
     </div>
   </div>

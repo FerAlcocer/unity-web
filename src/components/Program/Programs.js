@@ -12,11 +12,11 @@ const Programs = () => {
 
   return (
     <>
-    <Container>
+    <Container >
       <Row>
       { programs.map(program => (
        <Col sm key={program.id} className="card-columns animate__animated animate__fadeIn">  
-        <Card   style={{ width: '18rem' }}>
+        <Card   style={{ width: '25rem' }}>
         <Card.Img variant="top" src="holder.js/100px180" />
         <Card.Body>
           <Card.Title>{program.Name}</Card.Title>

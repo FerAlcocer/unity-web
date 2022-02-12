@@ -12,44 +12,40 @@ export const Pricing = () => {
     <div  className="col-md-3"></div>
     <div  className="col-md-2">
 
-    <h4>WALK-INS:</h4>
+    <h4>Entrada</h4>
       <p>
-        <strong>Mat fees</strong> 
-        <br />$500 per day
-        <br />$2500 per month
-      </p>
-
-      <p>
-        <strong>Month to Month</strong> 
-        <br />$2500/mo - Unlimited classes
+        <strong>Ingreso al tatami</strong> 
+        <br />$500 por clase
+        <br />
+        <br />$2500 por mes
       </p>
     </div>
 
     <div  className="col-md-2">
 
-      <h4>Adult:</h4>
+      <h4>Adultos</h4>
         <p>
-          <strong>6 Month Contract</strong> 
-          <br />$2000/mo - Unlimited classes
+          <strong>Contrato 6 meses</strong> 
+          <br />$2000/mo - Clases ilimiatadas
         </p>
 
         <p>
-          <strong>Month to Month</strong> 
-          <br />$2500/mo - Unlimited classes
+          <strong>Mes a mes</strong> 
+          <br />$2500/mo - Clases ilimiatadas
         </p>
     </div>
       
     <div  className="col-md-2">
 
-    <h4>Kids:</h4>
+    <h4>Kids</h4>
       <p>
-        <strong>6 Month Contract</strong> 
-        <br />$2000/mo - Unlimited classes
+       <strong>Contrato 6 meses</strong> 
+        <br />$2000/mo - Clases ilimiatadas
       </p>
 
       <p>
-        <strong>Month to Month</strong> 
-        <br />$2500/mo - Unlimited classes
+      <strong>Mes a mes</strong> 
+        <br />$2500/mo - Clases ilimiatadas
       </p>
       </div>
 

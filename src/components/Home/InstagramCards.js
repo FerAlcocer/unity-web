@@ -4,7 +4,7 @@ import  '../../styles/Text.css'
 export const InstagramCards = () => {
   return (
     <>
-    <div className='card-columns box-v2 font-resize animate__animated animate__fadeIn'><i className="fa fa-instagram" /> Join us on Instagram <strong ><a href="https://www.instagram.com/unity_jiujitsu_" style={{color:"white",textDecoration:"none"}}>@unity_jiujitsu_</a></strong></div>
+    <div className='card-columns box-v2 font-resize animate__animated animate__fadeIn'><i className="fa fa-instagram" /> Seguinos en Instagram <strong ><a href="https://www.instagram.com/unity_jiujitsu_" style={{color:"white",textDecoration:"none"}}>@unity_jiujitsu_</a></strong></div>
     <div className="conteiner animate__animated animate__fadeIn" style={{marginLeft:"20px",marginRight:"20px"}}>
 
       <div className="col-12">

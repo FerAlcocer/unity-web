@@ -45,29 +45,30 @@ export const NavbarComponent = () => {
           <Navbar.Toggle aria-controls="basic-navbar-nav" style={{marginRight:"20px"}}/>
           <Navbar.Collapse id="basic-navbar-nav" style={{paddingLeft:"20px", paddingRight:"20px"}}>
             <Nav className="me-auto">
-              <Nav.Link as={Link} to="/home">Home</Nav.Link>
+              <Nav.Link as={Link} to="/home">Inicio</Nav.Link>
 
               
 
-              <Nav.Link as={Link} to="/programs">Programs</Nav.Link>
-              <Nav.Link as={Link} to='/instructors'>Instructors</Nav.Link>
+              <Nav.Link as={Link} to="/programs">Programas</Nav.Link>
+              <Nav.Link as={Link} to='/instructors'>Instructores</Nav.Link>
 
               
               
               <NavDropdown title="Academy" id="basic-nav-dropdown">
                 {/*<NavDropdown.Item as={Link} to='/filosophy'>Filosophy</NavDropdown.Item>*/}
-                <NavDropdown.Item as={Link} to='/photos-video'>Photo & Video</NavDropdown.Item>  
-                <NavDropdown.Item as={Link} to="/schedule">Schedule</NavDropdown.Item>
-                <NavDropdown.Item as={Link} to="/pricing">Pricing</NavDropdown.Item>
+                <NavDropdown.Item as={Link} to="/schedule">Horarios</NavDropdown.Item>
+                <NavDropdown.Item as={Link} to="/pricing">Precios</NavDropdown.Item>
+                <NavDropdown.Item as={Link} to='/photos-video'>Photos & Videos</NavDropdown.Item>  
+                
               </NavDropdown>
 
-              <Nav.Link as={Link} to='/contact'>Contact</Nav.Link>
+              <Nav.Link as={Link} to='/contact'>Contacto</Nav.Link>
 
               {
                 currentUser ? (
                   <>
                     <Nav.Link as={Link} to="/career" className="nav-link">
-                    Career
+                    Carrera
                     </Nav.Link>
                   </>
                 ) : (
@@ -100,17 +101,17 @@ export const NavbarComponent = () => {
                 {currentUser.username}
                </Nav.Link>
               <Nav.Link as={Link} to="/login" className="nav-link" onClick={logOut}>
-                  LogOut
+                  Salir
                   </Nav.Link>
               </Nav>
             ) : (
               <Nav className="justify-content-end" style={{paddingRight:"50px"}}>
                 <Nav.Link as={Link} to="/login" className="nav-link">
-                  Login
+                  Ingreso
                 </Nav.Link>
 
                 <Nav.Link  as={Link} to="/register" className="nav-link">
-                  Sign Up
+                  Registro
                 </Nav.Link>
                 </Nav>
             )

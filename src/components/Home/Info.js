@@ -3,7 +3,7 @@ import React from 'react';
 export const Info = () => {
   return (
     <>
-      <div className='box-v2 font-resize animate__animated animate__fadeIn'><strong>Ready to Get Started?</strong> Begin Your Journey.</div>
+      <div className='box-v2 font-resize animate__animated animate__fadeIn'><strong>¿Estas listo para empezar?</strong> Comienza tu viaje!.</div>
         
         <div className="fs-4 text-center mt-4 animate__animated animate__fadeIn" >
           <p> <i className="fa fa-map-marker"></i>{' '}<strong>BLACK UNITY</strong>, Carlos Pellegrini 91 (Dpto. 2, 1er. Piso), PARANA, E.R., 3100, ARGENTINA</p>

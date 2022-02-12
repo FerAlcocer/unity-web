@@ -3,11 +3,20 @@ import {Accordion} from 'react-bootstrap';
 import "../../styles/Video.css";
 import "../../styles/Black.css";
 import YoutubeEmbed  from "../shared/Video";
+import { Link } from "react-router-dom";
+import { Button } from 'react-bootstrap';
 
 
 export const CareerScreen = () => {
   return (
     <>
+
+      <div className="container mt-4">
+        <p >Aqui encontraras una serie de videos de técnicas básicas y avanzadas de Jiu Jitus. Nuestra intención es que tengas estos fundamentos para poder aprovechar el 100% de nuestras clases. Cualquier duda o detalle puedes preguntarle directamente a cualquier cinturón negro de nuestra academia.</p>
+      </div>
+
+
+
   <div className='container mt-5 '>
   <Accordion className="card-columns animate__animated animate__fadeIn">
     <Accordion.Item eventKey="0">
