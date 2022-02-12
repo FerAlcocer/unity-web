@@ -1,10 +1,15 @@
 import { Card, Col , Row, Button,Container } from 'react-bootstrap';
 import { Link } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
-import React from "react";
+import React, {useEffect} from "react";
 import { programs } from '../../data/programs';
 
 const Programs = () => {
+
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
+
   return (
     <>
     <Container>
