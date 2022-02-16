@@ -70,7 +70,7 @@ export const FAQ = () => {
 
         <Accordion.Item eventKey="8">
           <Accordion.Header><strong className='fs-4 ' >No tengo kimono (gi), ¿puedo entrenar igual?</strong></Accordion.Header>    
-            <Accordion.Body>
+            <Accordion.Body>Tenemos clases con y sin kimono!
           </Accordion.Body>
         </Accordion.Item>
 
