@@ -40,10 +40,9 @@ export const Footer = () => {
           <div className='col-9'>
             <h2>Unity<span> JIUJITSU</span></h2>
             <p className="menu">
-              <Link to={ `./home` }>Home</Link>{'  |  '}
-              <Link to={ `./programs` }>Programs</Link>{'  |  '}
-              <Link to={ `./schedule` }>Schedule</Link>{'  |  '}
-              <Link to={ `./history` }>History</Link>{'  |  '}
+              <Link to={ `./home` }>Inicio</Link>{'  |  '}
+              <Link to={ `./programs` }>Programas</Link>{'  |  '}
+              <Link to={ `./schedule` }>Horarios</Link>{'  |  '}
               <Link to={ `./career` }>Career</Link>
             </p>
             <p className="name"> Copyright &copy; 2022</p>

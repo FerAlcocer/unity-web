@@ -3,9 +3,6 @@ import {Accordion} from 'react-bootstrap';
 import "../../styles/Video.css";
 import "../../styles/Black.css";
 import YoutubeEmbed  from "../shared/Video";
-import { Link } from "react-router-dom";
-import { Button } from 'react-bootstrap';
-
 
 export const CareerScreen = () => {
   return (

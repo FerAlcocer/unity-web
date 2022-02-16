@@ -9,7 +9,7 @@ import AuthService from "../services/auth.service";
 const required = (value) => {
   if (!value) {
     return (
-      <div className="alert alert-danger" role="alert">
+      <div className="alert alert-danger mt-4" role="alert">
         This field is required!
       </div>
     );
@@ -158,7 +158,7 @@ const Register = (props) => {
           )}
 
           {message && (
-            <div className="form-group">
+            <div className="form-group mt-4">
               <div
                 className={
                   successful ? "alert alert-success" : "alert alert-danger"

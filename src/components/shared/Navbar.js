@@ -54,7 +54,7 @@ export const NavbarComponent = () => {
 
               
               
-              <NavDropdown title="Academy" id="basic-nav-dropdown">
+              <NavDropdown title="Academia" id="basic-nav-dropdown">
                 {/*<NavDropdown.Item as={Link} to='/filosophy'>Filosophy</NavDropdown.Item>*/}
                 <NavDropdown.Item as={Link} to="/schedule">Horarios</NavDropdown.Item>
                 <NavDropdown.Item as={Link} to="/pricing">Precios</NavDropdown.Item>
@@ -97,9 +97,9 @@ export const NavbarComponent = () => {
 
             {currentUser ? (
               <Nav className="justify-content-end" style={{paddingRight:"50px"}}>
-              <Nav.Link as={Link} to="/profile" className="nav-link">
+              {/*<Nav.Link as={Link} to="/profile" className="nav-link">
                 {currentUser.username}
-               </Nav.Link>
+            </Nav.Link>*/}
               <Nav.Link as={Link} to="/login" className="nav-link" onClick={logOut}>
                   Salir
                   </Nav.Link>
