@@ -99,7 +99,7 @@ export const ScheduleScreen = () => {
               <td style={{
                             background: "rgba(0, 0, 0, 0.6)",
                             color:"white"
-                        }} className="align-middle" className="align-middle">18:00pm</td>
+                        }} className="align-middle" >18:00pm</td>
                
               <td style={{
                             background: "rgba(128, 0, 0, 0.3)"
@@ -149,7 +149,7 @@ export const ScheduleScreen = () => {
               <td style={{
                             background: "rgba(0, 0, 0, 0.6)",
                             color:"white"
-                        }} className="align-middle" className="align-middle">19:30pm</td>
+                        }} className="align-middle" >19:30pm</td>
               
               <td style={{
                             background: "rgba(0, 0, 256, 0.3)"
@@ -191,7 +191,7 @@ export const ScheduleScreen = () => {
               <td style={{
                             background: "rgba(0, 0, 0, 0.6)",
                             color:"white"
-                        }} className="align-middle" className="align-middle">20:30pm</td>
+                        }} className="align-middle" >20:30pm</td>
               
               <td style={{
                             background: "rgba(260, 150, 50, 0.3)"
