@@ -58,7 +58,7 @@ export const NavbarComponent = () => {
                 {/*<NavDropdown.Item as={Link} to='/filosophy'>Filosophy</NavDropdown.Item>*/}
                 <NavDropdown.Item as={Link} to="/schedule">Horarios</NavDropdown.Item>
                 <NavDropdown.Item as={Link} to="/pricing">Precios</NavDropdown.Item>
-                <NavDropdown.Item as={Link} to='/photos-video'>Photos & Videos</NavDropdown.Item>  
+                <NavDropdown.Item as={Link} to='/photos-video'>Fotos</NavDropdown.Item>  
                 
               </NavDropdown>
 

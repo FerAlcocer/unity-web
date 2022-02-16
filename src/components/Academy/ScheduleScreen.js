@@ -59,7 +59,7 @@ export const ScheduleScreen = () => {
             </tr>*/}
 
           <tr>
-              <td className="align-middle">16:30am</td>
+              <td className="align-middle">16:30pm</td>
               <td>
               </td>
 
@@ -87,7 +87,7 @@ export const ScheduleScreen = () => {
           </tr>
 
           <tr>
-              <td className="align-middle">18:00am</td>
+              <td className="align-middle">18:00pm</td>
               <td>
                   <span className="bg-green padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">NO-GI beginner</span>
                   <div className="margin-10px-top font-size14">18:00-19:15</div>
