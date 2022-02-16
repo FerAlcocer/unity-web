@@ -16,7 +16,10 @@ export const ScheduleScreen = () => {
   <div className="table-responsive">
   <table className="table table-bordered text-center">
       <thead>
-          <tr className="bg-light-gray">
+          <tr style={{
+                            background: "rgba(0, 0, 0, 1)",
+                            color: "white"
+                        }}>
               <th className="text-uppercase">Hora
               </th>
               <th className="text-uppercase">Lunes</th>
@@ -24,14 +27,14 @@ export const ScheduleScreen = () => {
               <th className="text-uppercase">Miércoles</th>
               <th className="text-uppercase">Jueves</th>
               <th className="text-uppercase">Viernes</th>
-              <th className="text-uppercase">Sábados</th>
+              {/*<th className="text-uppercase">Sábados</th>*/}
           </tr>
       </thead>
       <tbody>
           {/*<tr>
               <td className="align-middle">15:00am</td>
               <td>
-                  <span className="bg-purple padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">NO-GI beginner</span>
+                  <span className="bg-purple padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">Iniciantes NO-GI</span>
                   <div className="margin-10px-top font-size14">15:00-16:30</div>
                   <div className="font-size13 text-light-gray">Fernando Alcocer</div>
               </td>
@@ -40,7 +43,7 @@ export const ScheduleScreen = () => {
               </td>
 
               <td>
-                  <span className="bg-purple padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">NO-GI beginner</span>
+                  <span className="bg-purple padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">Iniciantes NO-GI</span>
                   <div className="margin-10px-top font-size14">15:00-16:30</div>
                   <div className="font-size13 text-light-gray">Fernando Alcocer</div>
               </td>
@@ -49,7 +52,7 @@ export const ScheduleScreen = () => {
               </td>
 
               <td>
-                  <span className="bg-purple padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">NO-GI beginner</span>
+                  <span className="bg-purple padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">Iniciantes NO-GI</span>
                   <div className="margin-10px-top font-size14">15:00-16:30</div>
                   <div className="font-size13 text-light-gray">Fernando Alcocer</div>
               </td>
@@ -59,133 +62,167 @@ export const ScheduleScreen = () => {
             </tr>*/}
 
           <tr>
-              <td className="align-middle">16:30pm</td>
+              <td style={{
+                            background: "rgba(0, 0, 0, 0.6)",
+                            color:"white"
+                        }} className="align-middle">16:30pm</td>
               <td>
               </td>
 
-              <td className="bg-light-gray">
-                  <span className="bg-lightred padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">NO-GI beginner</span>
-                  <div className="margin-10px-top font-size14">16:30-17:45</div>
-                  <div className="font-size13 text-light-gray">Francisco Cano</div>
-              </td>
-
-              <td>
-              </td>
-
-              <td>
-                  <span className="bg-lightred padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">NO-GI beginner</span>
-                  <div className="margin-10px-top font-size14">16:30-17:45</div>
-                  <div className="font-size13 text-light-gray">Francisco Cano</div>
+              <td style={{
+                            background: "rgba(0, 128, 0, 0.3)"
+                        }}>
+                  <span >Iniciantes NO-GI</span>
+                  <div >16:30-17:45</div>
+                  <div >Francisco Cano</div>
               </td>
 
               <td>
               </td>
 
-              <td className="bg-light-gray">
-
+              <td style={{
+                            background: "rgba(0, 128, 0, 0.3)"
+                        }}>
+                  <span >Iniciantes NO-GI</span>
+                  <div >16:30-17:45</div>
+                  <div >Francisco Cano</div>
               </td>
+
+
+              <td>
+              </td>
+
+
           </tr>
 
           <tr>
-              <td className="align-middle">18:00pm</td>
-              <td>
-                  <span className="bg-green padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">NO-GI beginner</span>
-                  <div className="margin-10px-top font-size14">18:00-19:15</div>
-                  <div className="font-size13 text-light-gray">Agostina Bonazza</div>
-                  <div className="font-size13 text-light-gray">Katoga</div>
+              <td style={{
+                            background: "rgba(0, 0, 0, 0.6)",
+                            color:"white"
+                        }} className="align-middle" className="align-middle">18:00pm</td>
+               
+              <td style={{
+                            background: "rgba(128, 0, 0, 0.3)"
+                        }}>
+                  <span >Iniciantes NO-GI</span>
+                  <div >18:00-19:15</div>
+                  <div >Agostina Bonazza <br/>Abelardo Diaz</div>
               </td>
 
-              <td>
-                  <span className="bg-yellow padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">Kids 6-13</span>
-                  <div className="margin-10px-top font-size14">18:00-19:00</div>
-                  <div className="font-size13 text-light-gray">Agostina Bonazza</div>
-                  <div className="font-size13 text-light-gray">Katoga</div>
+              <td style={{
+                            background: "rgba(128, 64, 0, 0.3)"
+                        }}>
+                  <span >Kids 6-13 años</span>
+                  <div >18:00-19:00</div>
+                  <div >Agostina Bonazza <br/>Abelardo Diaz</div>
               </td>
 
-              <td>
-                   <span className="bg-green padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">NO-GI beginner</span>
-                  <div className="margin-10px-top font-size14">18:00-19:15</div>
-                  <div className="font-size13 text-light-gray">Agostina Bonazza</div>
-                  <div className="font-size13 text-light-gray">Katoga</div>
+              <td style={{
+                            background: "rgba(128, 0, 0, 0.3)"
+                        }}>
+                  <span >Iniciantes NO-GI</span>
+                  <div >18:00-19:15</div>
+                  <div >Agostina Bonazza <br/>Abelardo Diaz</div>
               </td>
 
-              <td>
-                  <span className="bg-yellow padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">Kids 6-13</span>
-                  <div className="margin-10px-top font-size14">18:00-19:00</div>
-                  <div className="font-size13 text-light-gray">Agostina Bonazza</div>
-                  <div className="font-size13 text-light-gray">Katoga</div>
+              <td style={{
+                            background: "rgba(128, 64, 0, 0.3)"
+                        }}>
+                  <span >Kids 6-13 años</span>
+                  <div >18:00-19:00</div>
+                  <div >Agostina Bonazza <br/>Abelardo Diaz</div>
               </td>
 
-              <td>
-                   <span className="bg-green padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">NO-GI beginner</span>
-                  <div className="margin-10px-top font-size14">18:00-19:15</div>
-                  <div className="font-size13 text-light-gray">Fernando Alcocer</div>
-                  <div className="font-size13 text-light-gray">Katoga</div>
+              <td style={{
+                            background: "rgba(128, 0, 0, 0.3)"
+                        }}>
+                  <span >Iniciantes NO-GI</span>
+                  <div >18:00-19:15</div>
+                  <div >Agostina Bonazza <br/>Abelardo Diaz</div>
               </td>
 
-              <td>
-              </td>
+      
               
           </tr>
 
           <tr>
-              <td className="align-middle">19:30pm</td>
-              <td className="bg-light-gray">
-                  <span className="bg-pink padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">Fundamentals</span>
-                  <div className="margin-10px-top font-size14">19:30-20:30</div>
-                  <div className="font-size13 text-light-gray">Martin Paz</div>
-              </td>
-              <td>
-
-              </td>
-              <td>
-                  <span className="bg-pink padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">Fundamentals</span>
-                  <div className="margin-10px-top font-size14">19:30-20:30</div>
-                  <div className="font-size13 text-light-gray">Martin Paz</div>
+              <td style={{
+                            background: "rgba(0, 0, 0, 0.6)",
+                            color:"white"
+                        }} className="align-middle" className="align-middle">19:30pm</td>
+              
+              <td style={{
+                            background: "rgba(0, 0, 256, 0.3)"
+                        }}>
+                  <span >Fundamentos</span>
+                  <div >19:30-20:30</div>
+                  <div >Martin Paz</div>
               </td>
 
               <td>
+
+              </td>
+
+              <td style={{
+                            background: "rgba(0, 0, 256, 0.3)"
+                        }}>
+                  <span >Fundamentos</span>
+                  <div >19:30-20:30</div>
+                  <div >Martin Paz</div>
               </td>
 
               <td>
-                  <span className="bg-pink padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">Fundamentals</span>
-                  <div className="margin-10px-top font-size14">19:30-20:00</div>
-                  <div className="font-size13 text-light-gray">Martin Paz</div>
               </td>
 
-              <td>
+
+              <td style={{
+                            background: "rgba(256, 0, 256, 0.3)"
+                        }}>
+                  <span >Open Mat</span>
+                  <div >19:30-20:30</div>
+                  <div >Martin Paz</div>
               </td>
+
+
 
           </tr>
 
           <tr>
-              <td className="align-middle">20:30pm</td>
-              <td>
-                  <span className="bg-orange padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">Advanced</span>
-                  <div className="margin-10px-top font-size14">20:30-21:15</div>
-                  <div className="font-size13 text-light-gray">Martin Paz</div>
+              <td style={{
+                            background: "rgba(0, 0, 0, 0.6)",
+                            color:"white"
+                        }} className="align-middle" className="align-middle">20:30pm</td>
+              
+              <td style={{
+                            background: "rgba(260, 150, 50, 0.3)"
+                        }}>
+                  <span >Competicion</span>
+                  <div >20:30-21:30</div>
+                  <div >Martin Paz</div>
               </td>
 
               <td>
               </td>
 
-              <td>
-                  <span className="bg-orange padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">Advanced</span>
-                  <div className="margin-10px-top font-size14">20:30-21:15</div>
-                  <div className="font-size13 text-light-gray">Martin Paz</div>
+              <td style={{
+                            background: "rgba(260, 150, 50, 0.3)"
+                        }}>
+                  <span >Competicion</span>
+                  <div >20:30-21:30</div>
+                  <div >Martin Paz</div>
               </td>
 
               <td>
               </td>
 
-              <td>
-                  <span className="bg-orange padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">Advanced</span>
-                  <div className="margin-10px-top font-size14">20:30-21:15</div>
-                  <div className="font-size13 text-light-gray">Martin Paz</div>
+              <td style={{
+                            background: "rgba(256, 0, 256, 0.3)"
+                        }}>
+                  <span >Open Mat</span>
+                  <div >20:30-21:30</div>
+                  <div >Martin Paz</div>
               </td>
 
-              <td>
-              </td>
 
           </tr>
       </tbody>
