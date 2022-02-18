@@ -8,33 +8,33 @@ export const CarrouselComponent = () => {
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src={ `./assets/ac-2.jpg`}
+          src={ `./assets/ac2-2.jpg`}
           alt="First slide"
         />
         <Carousel.Caption>
-          <h1 className='font-resize'>ACADEMIA DE JIU JITSU</h1>
+          {/*<h1 className='font-resize'>ACADEMIA DE JIU JITSU</h1>*/}
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src={ `./assets/ac-3.jpg`}
+          src={ `./assets/ac2-3.jpg`}
           alt="Second slide"
         />
 
         <Carousel.Caption>
-          <h1 className='font-resize '>CONOCE NUESTROS PROGRAMAS</h1>
+          {/* <h1 className='font-resize '>CONOCE NUESTROS PROGRAMAS</h1>*/}
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src={ `./assets/ac-1.jpg`}
+          src={ `./assets/ac2-1.jpg`}
           alt="Third slide"
         />
 
         <Carousel.Caption>
-          <h1 className='font-resize '>CONOCE NUESTROS PROFESORES</h1>
+          {/* <h1 className='font-resize '>CONOCE NUESTROS PROFESORES</h1>*/}
         </Carousel.Caption>
       </Carousel.Item>
     </Carousel>
