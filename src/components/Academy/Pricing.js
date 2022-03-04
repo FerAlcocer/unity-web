@@ -26,12 +26,12 @@ export const Pricing = () => {
       <h4>Adultos</h4>
         <p>
           <strong>Contrato 6 meses</strong> 
-          <br />$2000/mo - Clases ilimiatadas
+          <br />$2000/mo - Clases ilimitadas
         </p>
 
         <p>
           <strong>Mes a mes</strong> 
-          <br />$2500/mo - Clases ilimiatadas
+          <br />$2500/mo - Clases ilimitadas
         </p>
     </div>
       
@@ -40,12 +40,12 @@ export const Pricing = () => {
     <h4>Kids</h4>
       <p>
        <strong>Contrato 6 meses</strong> 
-        <br />$2000/mo - Clases ilimiatadas
+        <br />$2000/mo - Clases ilimitadas
       </p>
 
       <p>
       <strong>Mes a mes</strong> 
-        <br />$2500/mo - Clases ilimiatadas
+        <br />$2200/mo - Clases ilimitadas
       </p>
       </div>
 

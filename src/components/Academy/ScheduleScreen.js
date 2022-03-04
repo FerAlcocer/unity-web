@@ -62,6 +62,44 @@ export const ScheduleScreen = () => {
             </tr>*/}
 
           <tr>
+              
+              <td style={{
+                            background: "rgba(0, 0, 0, 0.6)",
+                            color:"white"
+                        }} className="align-middle">11:00am</td>
+              <td>
+              </td>
+
+              <td style={{
+                            background: "rgba(0, 23, 23, 0.3)"
+                        }}>
+                  <span >Iniciantes NO-GI</span>
+                  <div >11:00-12:00</div>
+                  <hr/>
+                  <div >Juan Martinez</div>
+              </td>
+
+
+              <td>
+              </td>
+
+              <td style={{
+                            background: "rgba(0, 23, 23, 0.3)"
+                        }}>
+                  <span >Iniciantes NO-GI</span>
+                  <div >11:00-12:00</div>
+                  <hr/>
+                  <div >Juan Martinez</div>
+              </td>
+
+
+              <td>
+              </td>
+
+
+          </tr>
+
+          <tr>
               <td style={{
                             background: "rgba(0, 0, 0, 0.6)",
                             color:"white"
@@ -74,6 +112,7 @@ export const ScheduleScreen = () => {
                         }}>
                   <span >Iniciantes NO-GI</span>
                   <div >16:30-17:45</div>
+                  <hr/>
                   <div >Francisco Cano</div>
               </td>
 
@@ -85,7 +124,45 @@ export const ScheduleScreen = () => {
                         }}>
                   <span >Iniciantes NO-GI</span>
                   <div >16:30-17:45</div>
+                  <hr/>
                   <div >Francisco Cano</div>
+              </td>
+
+
+              <td>
+              </td>
+
+
+          </tr>
+
+
+          <tr>
+              <td style={{
+                            background: "rgba(0, 0, 0, 0.6)",
+                            color:"white"
+                        }} className="align-middle">17:00pm</td>
+              <td>
+              </td>
+
+              <td style={{
+                            background: "rgba(128 ,64 , 0, 0.3)"
+                        }}>
+                  <span >Infantiles 3-5 años</span>
+                  <div >17:00-18:00</div>
+                  <hr/>
+                  <div >Abelardo Diaz</div>
+              </td>
+
+              <td>
+              </td>
+
+              <td style={{
+                            background: "rgba(128 ,64 , 0, 0.3)"
+                        }}>
+                  <span >Infantiles 3-5 años</span>
+                  <div >17:00-18:00</div>
+                  <hr/>
+                  <div >Abelardo Diaz</div>
               </td>
 
 
@@ -106,14 +183,16 @@ export const ScheduleScreen = () => {
                         }}>
                   <span >Iniciantes NO-GI</span>
                   <div >18:00-19:15</div>
+                  <hr/>
                   <div >Agostina Bonazza <br/>Abelardo Diaz</div>
               </td>
 
               <td style={{
                             background: "rgba(128, 64, 0, 0.3)"
                         }}>
-                  <span >Kids 6-13 años</span>
+                  <span >Infantiles 6-13 años</span>
                   <div >18:00-19:00</div>
+                  <hr/>
                   <div >Agostina Bonazza <br/>Abelardo Diaz</div>
               </td>
 
@@ -122,14 +201,16 @@ export const ScheduleScreen = () => {
                         }}>
                   <span >Iniciantes NO-GI</span>
                   <div >18:00-19:15</div>
+                  <hr/>
                   <div >Agostina Bonazza <br/>Abelardo Diaz</div>
               </td>
 
               <td style={{
                             background: "rgba(128, 64, 0, 0.3)"
                         }}>
-                  <span >Kids 6-13 años</span>
+                  <span >Infantiles 6-13 años</span>
                   <div >18:00-19:00</div>
+                  <hr/>
                   <div >Agostina Bonazza <br/>Abelardo Diaz</div>
               </td>
 
@@ -138,6 +219,7 @@ export const ScheduleScreen = () => {
                         }}>
                   <span >Iniciantes NO-GI</span>
                   <div >18:00-19:15</div>
+                  <hr/>
                   <div >Agostina Bonazza <br/>Abelardo Diaz</div>
               </td>
 
@@ -156,6 +238,7 @@ export const ScheduleScreen = () => {
                         }}>
                   <span >Fundamentos</span>
                   <div >19:30-20:30</div>
+                  <hr/>
                   <div >Martin Paz</div>
               </td>
 
@@ -168,6 +251,7 @@ export const ScheduleScreen = () => {
                         }}>
                   <span >Fundamentos</span>
                   <div >19:30-20:30</div>
+                  <hr/>
                   <div >Martin Paz</div>
               </td>
 
@@ -180,6 +264,7 @@ export const ScheduleScreen = () => {
                         }}>
                   <span >Open Mat</span>
                   <div >19:30-20:30</div>
+                  <hr/>
                   <div >Martin Paz</div>
               </td>
 
@@ -198,6 +283,7 @@ export const ScheduleScreen = () => {
                         }}>
                   <span >Competicion</span>
                   <div >20:30-21:30</div>
+                  <hr/>
                   <div >Martin Paz</div>
               </td>
 
@@ -209,6 +295,7 @@ export const ScheduleScreen = () => {
                         }}>
                   <span >Competicion</span>
                   <div >20:30-21:30</div>
+                  <hr/>
                   <div >Martin Paz</div>
               </td>
 
@@ -220,6 +307,7 @@ export const ScheduleScreen = () => {
                         }}>
                   <span >Open Mat</span>
                   <div >20:30-21:30</div>
+                  <hr/>
                   <div >Martin Paz</div>
               </td>
 
