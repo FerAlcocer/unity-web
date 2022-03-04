@@ -6,7 +6,7 @@ export const HomeCards = () => {
   return (
     <>
 
-  <div className="row mt-4">
+  <div className="row mt-4" style={{"width":"100%"}}>
 
     <div className="col mb-4 text-center">
     <Link to={ `./program/1` }>
