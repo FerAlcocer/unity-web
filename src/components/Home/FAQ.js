@@ -18,12 +18,12 @@ export const FAQ = () => {
 
         <Accordion.Item eventKey="1">
           <Accordion.Header><strong className='fs-4 ' >¿Necesito tener estado físico para empezar?</strong></Accordion.Header>    
-            <Accordion.Body>Tener buena salud y estado físico es importante, pero el entrenamiento de Jiu Jitsu es particular y no es necesario estar entrenado.
+            <Accordion.Body>Tener buena salud y estado físico es importante, pero no se requiere experiencia previa para iniciar Jiu Jitsu.
           </Accordion.Body>
         </Accordion.Item>
 
         <Accordion.Item eventKey="2">
-          <Accordion.Header><strong className='fs-4 ' >¿Cuales son los horarios?</strong></Accordion.Header>    
+          <Accordion.Header><strong className='fs-4 ' >¿Cuáles son los horarios?</strong></Accordion.Header>    
             <Accordion.Body>
               Tenemos horarios a la siesta, tarde y noche!
               <Link  to={ `./schedule/` }>
@@ -33,14 +33,14 @@ export const FAQ = () => {
         </Accordion.Item>
 
         <Accordion.Item eventKey="3">
-          <Accordion.Header><strong className='fs-4 '>¿Que indumentaria necesito para entrenar?</strong></Accordion.Header>    
+          <Accordion.Header><strong className='fs-4 '>¿Qué indumentaria necesito para entrenar?</strong></Accordion.Header>    
             <Accordion.Body>Para las clases NO-GI tenemos una indumentaria exclusiva, lycra y short. Para el caso de GI, tenemos los kimonos de la Ralph Gracie!
           </Accordion.Body>
         </Accordion.Item>
 
         <Accordion.Item eventKey="4">
           <Accordion.Header><strong className='fs-4 ' >¿Cuanto duran las clases?</strong></Accordion.Header>    
-            <Accordion.Body> Las clases tienen una duracion de 1 hora aproximadamente.
+            <Accordion.Body>Las clases tienen una duracion de 1 hora aproximadamente. Si se desea luchar la clase puede extenderse.
           </Accordion.Body>
         </Accordion.Item>
 
@@ -54,7 +54,7 @@ export const FAQ = () => {
         </Accordion.Item>
 
         <Accordion.Item eventKey="6">
-          <Accordion.Header><strong className='fs-4 ' >¿Cuanto sale el mes?</strong></Accordion.Header>    
+          <Accordion.Header><strong className='fs-4 ' >¿Cuánto sale el mes?</strong></Accordion.Header>    
             <Accordion.Body>Los costos se van actualizado segun la inflación. Para mas informacion esta la sección
             <Link  to={ `./pricing/` }>
                   <Button variant="primary" style={{marginLeft:"20px"}} > Info...</Button>
@@ -76,8 +76,8 @@ export const FAQ = () => {
 
         <Accordion.Item eventKey="9">
           <Accordion.Header><strong className='fs-4 ' >¿Ofrecen clases particulares?</strong></Accordion.Header>    
-            <Accordion.Body>...
-            <Link  to={ `./program/7` }>
+            <Accordion.Body>Si, tenemos instructores especializados, mandanos un mensaje! 
+            <Link  to={ `./program/2` }>
                   <Button variant="primary" style={{marginLeft:"20px"}} > Info...</Button>
             </Link>
           </Accordion.Body>
