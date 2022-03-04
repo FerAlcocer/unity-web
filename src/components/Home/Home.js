@@ -32,7 +32,7 @@ const Home = () => {
   return (
     <>
       <CarrouselComponent />
-      <div className='card-columns box' ></div>
+      {/*<div className='card-columns box' ></div>*/}
       <Jumbotron />
       <HomeCards />
       <FAQ />

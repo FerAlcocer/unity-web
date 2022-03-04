@@ -10,7 +10,7 @@ export const HomeCards = () => {
 
     <div className="col mb-4 text-center">
     <Link to={ `./program/1` }>
-    <Button className="card-title button-box btn-Effect" variant="dark">CLASE KIDS</Button>
+    <Button className="card-title button-box btn-Effect" variant="dark">INFANTILES</Button>
     </Link>
     </div>
     
@@ -29,7 +29,7 @@ export const HomeCards = () => {
 
     <div className="col  mb-4 text-center">
     <Link to={ `./instructors` }>
-    <Button className="card-title button-box btn-Effect" variant="dark">INSTRUCTORES</Button>
+    <Button className="card-title button-box btn-Effect" variant="dark">PROFESORES</Button>
     </Link>
     </div>
   </div>

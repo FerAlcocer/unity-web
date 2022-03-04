@@ -1,4 +1,4 @@
-import { Card, Col , Row, Button,Container } from 'react-bootstrap';
+import { Card, Col , Row, Button,Container} from 'react-bootstrap';
 import { Link } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
 import React, {useEffect} from "react";
@@ -17,13 +17,16 @@ const Programs = () => {
       { programs.map(program => (
        <Col sm key={program.id} className="card-columns animate__animated animate__fadeIn">  
         <Card   style={{ width: '25rem' }}>
-        <Card.Img variant="top" src="holder.js/100px180" />
+        <Card.Title><strong><div className="fs-1">{program.Name}</div></strong></Card.Title>
+        <Card.Img variant="top" 
+          style={{border: "1px solid black",borderRadius: "2em"}}
+          src={ "./assets/programs/"+program.id+".jpg" }
+           />
         <Card.Body>
-          <Card.Title>{program.Name}</Card.Title>
-          <Card.Text>
-            Some quick example text to build on the card title and make up the bulk of
-            the card's content.
-          </Card.Text>
+         
+          {/*<Card.Text>
+            
+          </Card.Text>*/}
           
           <Link to={ `./program/${ program.id }` }>
           <div className="d-grid gap-2">

@@ -29,8 +29,10 @@ const ProgramScreen = ({ history }) => {
 
     const {
         Name,
+        Instructors,
+        Duration,
+        Level,
         m_Description,
-        M_Description,
     } = program;
     
     return (
@@ -38,7 +40,7 @@ const ProgramScreen = ({ history }) => {
         <div className="row mt-5 animate__animated animate__fadeIn">
             <div className="col-4">
                 <img 
-                    src={ `../assets/heroes/${ programId }.jpg` }
+                    src={ "../assets/programs/"+programId+".jpg" }
                     alt={ Name }
                     className="img-thumbnail animate__animated animate__fadeInLeft"
                 />
@@ -47,13 +49,14 @@ const ProgramScreen = ({ history }) => {
             <div className="col-8">
                 <h3> { Name } </h3>
                 <ul className="list-group list-group-flush">
-                    <li className="list-group-item"> <b> Instructor: </b> { m_Description } </li>
-                    <li className="list-group-item"> <b> Duration: </b> { m_Description } </li>
-                    <li className="list-group-item"> <b> Level: </b> { m_Description } </li>
+                    <li className="list-group-item"> <b> Instructor/es: </b> { Instructors } </li>
+                    <li className="list-group-item"> <b> Duración de la clase: </b> { Duration } </li>
+                    <li className="list-group-item"> <b> Nivel de cinturon requerido: </b> { Level } </li>
                 </ul>
+                <br></br>
 
-                <h5> Information </h5>
-                <p> { M_Description } </p>
+                <p> { m_Description } </p>
+
             </div>
 
 
@@ -62,11 +65,11 @@ const ProgramScreen = ({ history }) => {
                 <div className='col-5'></div>
                 <div className="col-2 text-center d-grid gap-2">
                     <button 
-                        className="btn btn-outline-info"
+                        className="btn btn-dark"
                         onClick={ handleReturn }
                         variant="primary" size="xs"
                     >
-                        Return
+                        Volver
                     </button>
                 </div>
                 <div className='col-5'></div>
@@ -76,10 +79,10 @@ const ProgramScreen = ({ history }) => {
                 <div className="col-6">
                     <Link to={ `/get-started` }>
                         <button 
-                                className="btn btn-outline-info"
+                                className="btn btn-info"
                                 style={{float:"right"}}
                             >
-                                Sign Up for a free class
+                                Quiero una clase gratis!
                         </button>
                     </Link>
                 </div>
@@ -89,7 +92,7 @@ const ProgramScreen = ({ history }) => {
                                 className="btn btn-outline-info"
                                 style={{float:"left"}}
                             >
-                                Check out the schedule
+                                Ver los horarios
                         </button>
                     </Link>
                 </div>

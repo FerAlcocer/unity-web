@@ -1,10 +1,9 @@
 export const programs = [
-  {"id":0,"Name":"Iniciantes", "m_Description":"ASD", "M_Description":"ASD2"},
-  {"id":1,"Name":"Kids", "m_Description":"ASD", "M_Description":"ASD2"},
-  {"id":2,"Name":"Mujeres", "m_Description":"ASD", "M_Description":"ASD2"},
-  {"id":3,"Name":"NOGI", "m_Description":"ASD", "M_Description":"ASD2"},
-  {"id":4,"Name":"Fundamentos", "m_Description":"ASD", "M_Description":"ASD2"},
-  {"id":5,"Name":"Competición", "m_Description":"ASD", "M_Description":"ASD2"},
-  {"id":6,"Name":"Open Mat", "m_Description":"ASD", "M_Description":"ASD2"},
-  {"id":7,"Name":"Clases Privadas", "m_Description":"ASD", "M_Description":"ASD2"},
+  {"id":0,"Name":"Iniciantes", "m_Description":"Programa creado para asegurar una base sólida en Jiu Jitsu, introduciendo técnicas en todas las posiciones, tanto en defensa como ataque.", "M_Description":"ASD2", "Instructors":"Katoga, Agostina y Francisco", "Duration":"1 hora con 30 min de lucha", "Level": "Blanco y Azul"},
+  {"id":1,"Name":"Infantiles", "m_Description":"Programa creado para instroducir a los mas pequeños al Jiu Jitsu a través del desarrollo  de la agilidad, flexibilidad y coordinación.", "M_Description":"ASD2", "Instructors":"Katoga y Agostina", "Duration":"1 hora", "Level": "Iniciantes!"},
+  {"id":2,"Name":"Mujeres", "m_Description":"Programa creado para el desarrollo de la defensa persona, fitness o competición exclusiva de mujeres.", "M_Description":"ASD2", "Instructors":"Agostina y Tatiana", "Duration":"1 hora y 30 minutos", "Level": "Blanco"},
+  {"id":4,"Name":"Fundamentos", "m_Description":"Programa creado para reforzar las bases y entendimiento conceptual del arte", "M_Description":"ASD2", "Instructors":"Martin", "Duration":"1 y 30 minutos", "Level": "Todos los niveles"},
+  {"id":5,"Name":"Competición", "m_Description":"Programa centrado en ejercicios específicos de competencia.", "M_Description":"ASD2", "Instructors":"Martin", "Duration":"1 y 30 minutos", "Level": "Todos los niveles"},
+  {"id":6,"Name":"Open Mat", "m_Description":"Clases informales y abierta a todo el público para compartir charlas, experiencias y técnicas.", "M_Description":"ASD2", "Instructors":"-", "Duration":"-", "Level": "-"},
+  {"id":7,"Name":"Clases Privadas", "m_Description":"Clases exclusivas para profundizar cualquier tema teórico/práctico del Jiu Jitsu", "M_Description":"ASD2", "Instructors":"Martin Paz", "Duration":"1 hora", "Level": "Todos los niveles"},
 ]
