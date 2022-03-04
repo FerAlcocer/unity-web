@@ -130,7 +130,7 @@ export const GetStarted = () => {
                   <Input
                     type="text"
                     className="form-control mb-2"
-                    placeholder="FirstName (optional)"
+                    placeholder="Nombre (opcional)"
                     name="firstname"
                     value={firstname}
                     onChange={onChangeFirstname}
@@ -142,7 +142,7 @@ export const GetStarted = () => {
                   <Input
                     type="text"
                     className="form-control mb-2"
-                    placeholder="Last Name (optional)"
+                    placeholder="Apellido (opcional)"
                     name="Lastname"
                     value={lastname}
                     onChange={onChangeLastname}
@@ -167,7 +167,7 @@ export const GetStarted = () => {
                   <Input
                     type="text"
                     className="form-control mb-2"
-                    placeholder="Phone number (optional)"
+                    placeholder="Teléfono (opcional)"
                     name="phone"
                     value={phone}
                     onChange={onChangePhone}
@@ -179,7 +179,7 @@ export const GetStarted = () => {
                   <textarea
                     type="text"
                     className="form-control mb-2"
-                    placeholder="Tell us about your goals (optional)"
+                    placeholder="Coméntanos cuales son tus objetivos (opcional)"
                     name="textarea"
                     value={textarea}
                     onChange={onChangeTextarea}
@@ -190,7 +190,7 @@ export const GetStarted = () => {
                 </div>
 
                 <div className="form-group d-grid gap-2">
-                <Button variant="primary" size="lg" onClick={ handleRegister }>Submit</Button>
+                <Button variant="primary" size="lg" onClick={ handleRegister }>Enviar</Button>
                 </div>
               </div>
             )}

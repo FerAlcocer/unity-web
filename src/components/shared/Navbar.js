@@ -105,7 +105,7 @@ export const NavbarComponent = () => {
                   </Nav.Link>
               </Nav>
             ) : (
-              <Nav className="justify-content-end" style={{paddingRight:"50px"}}>
+              /*<Nav className="justify-content-end" style={{paddingRight:"50px"}}>
                 <Nav.Link as={Link} to="/login" className="nav-link">
                   Ingreso
                 </Nav.Link>
@@ -113,7 +113,8 @@ export const NavbarComponent = () => {
                 <Nav.Link  as={Link} to="/register" className="nav-link">
                   Registro
                 </Nav.Link>
-                </Nav>
+              </Nav>*/
+              <></>
             )
             }
           </Navbar.Collapse>
