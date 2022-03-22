@@ -8,17 +8,23 @@ import { Link } from "react-router-dom";
 import '../../styles/Navbar.css';
 
 export const NavbarComponent = () => {
+  const [showPrivateBoard, setShowPrivateBoard] = useState(false);
   const [showModeratorBoard, setShowModeratorBoard] = useState(false);
   const [showAdminBoard, setShowAdminBoard] = useState(false);
+
   const [currentUser, setCurrentUser] = useState(undefined);
 
   useEffect(() => {
     const user = AuthService.getCurrentUser();
-
     if (user) {
       setCurrentUser(user);
-      setShowModeratorBoard(user.roles.includes("ROLE_MODERATOR"));
-      setShowAdminBoard(user.roles.includes("ROLE_ADMIN"));
+
+      if(user.roles){
+        setShowModeratorBoard(user.roles.includes("ROLE_MODERATOR"));
+        setShowAdminBoard(user.roles.includes("ROLE_ADMIN"));
+        setShowPrivateBoard(true);
+      }
+      
     }
 
     EventBus.on("logout", () => {
@@ -35,6 +41,7 @@ export const NavbarComponent = () => {
     setShowModeratorBoard(false);
     setShowAdminBoard(false);
     setCurrentUser(undefined);
+    setShowPrivateBoard(false);
   };
 
   return (
@@ -65,7 +72,7 @@ export const NavbarComponent = () => {
               <Nav.Link as={Link} to='/contact'>Contacto</Nav.Link>
 
               {
-                currentUser ? (
+                showPrivateBoard ? (
                   <>
                     <Nav.Link as={Link} to="/career" className="nav-link">
                     Carrera
@@ -105,7 +112,7 @@ export const NavbarComponent = () => {
                   </Nav.Link>
               </Nav>
             ) : (
-              /*<Nav className="justify-content-end" style={{paddingRight:"50px"}}>
+              <Nav className="justify-content-end" style={{paddingRight:"50px"}}>
                 <Nav.Link as={Link} to="/login" className="nav-link">
                   Ingreso
                 </Nav.Link>
@@ -113,8 +120,8 @@ export const NavbarComponent = () => {
                 <Nav.Link  as={Link} to="/register" className="nav-link">
                   Registro
                 </Nav.Link>
-              </Nav>*/
-              <></>
+              </Nav>
+
             )
             }
           </Navbar.Collapse>

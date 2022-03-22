@@ -1,6 +1,8 @@
 import axios from "axios";
 
-const API_URL = "http://localhost:8000/api/v1/";
+
+const WEB_URL = "https://unity-backend.herokuapp.com/"
+const API_URL = WEB_URL+"api/v1/";
 
 const register = (username, email, password) => {
 
