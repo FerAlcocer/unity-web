@@ -92,7 +92,7 @@ export const GetStarted = () => {
           'Access-Control-Allow-Origin': '*',
           'Content-Type': 'application/json',
         },
-        mode: 'no-cors',
+        //mode: 'no-cors',
         url: API_URL + 'posts/',
         data: json_values
       }).then(

@@ -21,7 +21,7 @@ const register = (username, email, password) => {
       'Access-Control-Allow-Origin': '*',
       'Content-Type': 'application/json',
     },
-    mode: 'no-cors',
+    //mode: 'no-cors',
     url: API_URL + 'users/',
     data: json_values
   })
@@ -42,7 +42,7 @@ const login = (username, password) => {
       'Access-Control-Allow-Origin': '*',
       'Content-Type': 'application/json',
     },
-    mode: 'no-cors',
+    //mode: 'no-cors',
     url: API_URL + 'users/login/',
     data: json_values
   }).then((response) => {
